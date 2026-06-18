@@ -22,72 +22,72 @@ module alu16bit(A, B, ALU_Sel, ALU_Out, CarryOut);
   wire _001_;
   wire _002_;
   wire _003_;
-  wire [6:0] _004_;
-  wire [2:0] _005_;
-  wire [1:0] _006_;
-  wire [7:0] _007_;
-  wire [3:0] _008_;
-  wire [1:0] _009_;
-  wire [1:0] _010_;
-  wire [1:0] _011_;
-  wire [1:0] _012_;
-  wire [1:0] _013_;
-  wire [1:0] _014_;
-  wire [1:0] _015_;
-  wire [7:0] _016_;
-  wire [3:0] _017_;
-  wire [1:0] _018_;
-  wire [6:0] _019_;
-  wire [2:0] _020_;
-  wire [1:0] _021_;
-  wire [6:0] _022_;
-  wire [2:0] _023_;
-  wire [1:0] _024_;
-  wire [6:0] _025_;
-  wire [2:0] _026_;
-  wire [1:0] _027_;
-  wire [6:0] _028_;
-  wire [2:0] _029_;
-  wire [1:0] _030_;
-  wire [6:0] _031_;
-  wire [2:0] _032_;
-  wire [1:0] _033_;
-  wire [6:0] _034_;
-  wire [2:0] _035_;
-  wire [1:0] _036_;
-  wire [6:0] _037_;
-  wire [2:0] _038_;
-  wire [1:0] _039_;
-  wire [6:0] _040_;
-  wire [2:0] _041_;
-  wire [1:0] _042_;
-  wire [6:0] _043_;
-  wire [2:0] _044_;
-  wire [1:0] _045_;
-  wire [6:0] _046_;
-  wire [2:0] _047_;
-  wire [1:0] _048_;
-  wire [6:0] _049_;
-  wire [2:0] _050_;
-  wire [1:0] _051_;
-  wire [6:0] _052_;
-  wire [2:0] _053_;
-  wire [1:0] _054_;
-  wire [6:0] _055_;
-  wire [2:0] _056_;
-  wire [1:0] _057_;
-  wire [6:0] _058_;
-  wire [2:0] _059_;
-  wire [1:0] _060_;
-  wire [6:0] _061_;
-  wire [2:0] _062_;
-  wire [1:0] _063_;
-  wire [6:0] _064_;
-  wire [2:0] _065_;
-  wire [1:0] _066_;
-  wire [6:0] _067_;
-  wire [2:0] _068_;
-  wire [1:0] _069_;
+  wire _004_;
+  wire _005_;
+  wire _006_;
+  wire _007_;
+  wire _008_;
+  wire _009_;
+  wire _010_;
+  wire _011_;
+  wire _012_;
+  wire _013_;
+  wire _014_;
+  wire _015_;
+  wire _016_;
+  wire _017_;
+  wire _018_;
+  wire _019_;
+  wire _020_;
+  wire _021_;
+  wire _022_;
+  wire _023_;
+  wire _024_;
+  wire _025_;
+  wire _026_;
+  wire _027_;
+  wire _028_;
+  wire _029_;
+  wire _030_;
+  wire _031_;
+  wire _032_;
+  wire _033_;
+  wire _034_;
+  wire _035_;
+  wire _036_;
+  wire _037_;
+  wire _038_;
+  wire _039_;
+  wire _040_;
+  wire _041_;
+  wire _042_;
+  wire _043_;
+  wire _044_;
+  wire _045_;
+  wire _046_;
+  wire _047_;
+  wire _048_;
+  wire _049_;
+  wire _050_;
+  wire _051_;
+  wire _052_;
+  wire _053_;
+  wire _054_;
+  wire _055_;
+  wire _056_;
+  wire _057_;
+  wire _058_;
+  wire _059_;
+  wire _060_;
+  wire _061_;
+  wire _062_;
+  wire _063_;
+  wire _064_;
+  wire _065_;
+  wire _066_;
+  wire _067_;
+  wire _068_;
+  wire _069_;
   wire _070_;
   wire _071_;
   wire _072_;
@@ -103,1020 +103,2534 @@ module alu16bit(A, B, ALU_Sel, ALU_Out, CarryOut);
   wire _082_;
   wire _083_;
   wire _084_;
-  (* force_downto = 32'd1 *)
-  (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:579.28-579.29" *)
-  wire [237:0] _085_;
-  (* force_downto = 32'd1 *)
-  (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:591.28-591.35" *)
-  wire [237:0] _086_;
-  (* force_downto = 32'd1 *)
-  (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:581.22-581.23" *)
-  wire [13:0] _087_;
-  (* force_downto = 32'd1 *)
-  (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:586.19-586.22" *)
-  wire [16:0] _088_;
-  (* force_downto = 32'd1 *)
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:274.23-274.25" *)
-  wire [16:0] _089_;
-  (* force_downto = 32'd1 *)
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.21-279.23" *)
-  wire [15:0] _090_;
-  (* force_downto = 32'd1 *)
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:274.23-274.25" *)
-  wire [15:0] _091_;
-  (* force_downto = 32'd1 *)
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:287.21-287.22" *)
-  wire [15:0] _092_;
-  (* force_downto = 32'd1 *)
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:200.21-200.22" *)
-  wire [15:0] _093_;
+  wire _085_;
+  wire _086_;
+  wire _087_;
+  wire _088_;
+  wire _089_;
+  wire _090_;
+  wire _091_;
+  wire _092_;
+  wire _093_;
   wire _094_;
   wire _095_;
-  (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)
   wire _096_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _097_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _098_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _099_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _100_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _101_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _102_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _103_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _104_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _105_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _106_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _107_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _108_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _109_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _110_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _111_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)
   wire _112_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)
   wire _113_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)
   wire _114_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)
   wire _115_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)
   wire _116_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)
   wire _117_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)
   wire _118_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)
   wire _119_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)
   wire _120_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)
   wire _121_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)
   wire _122_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _123_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _124_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _125_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _126_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _127_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _128_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _129_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _130_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _131_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _132_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _133_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _134_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _135_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _136_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _137_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _138_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _139_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _140_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _141_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _142_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _143_;
-  (* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _144_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _145_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _146_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _147_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _148_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _149_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _150_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _151_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _152_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _153_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _154_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _155_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _156_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _157_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _158_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)
   wire _159_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _160_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _161_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _162_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _163_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _164_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _165_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _166_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _167_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _168_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _169_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)
   wire _170_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _171_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _172_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _173_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _174_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _175_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _176_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _177_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _178_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _179_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _180_;
-  (* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)
   wire _181_;
+  wire _182_;
+  wire _183_;
+  wire _184_;
+  wire _185_;
+  wire _186_;
+  wire _187_;
+  wire _188_;
+  wire _189_;
+  wire _190_;
+  wire _191_;
+  wire _192_;
+  wire _193_;
+  wire _194_;
+  wire _195_;
+  wire _196_;
+  wire _197_;
+  wire _198_;
+  wire _199_;
+  wire _200_;
+  wire _201_;
+  wire _202_;
+  wire _203_;
+  wire _204_;
+  wire _205_;
+  wire _206_;
+  wire _207_;
+  wire _208_;
+  wire _209_;
+  wire _210_;
+  wire _211_;
+  wire _212_;
+  wire _213_;
+  wire _214_;
+  wire _215_;
+  wire _216_;
+  wire _217_;
+  wire _218_;
+  wire _219_;
+  wire _220_;
+  wire _221_;
+  wire _222_;
+  wire _223_;
+  wire _224_;
+  wire _225_;
+  wire _226_;
+  wire _227_;
+  wire _228_;
+  wire _229_;
+  wire _230_;
+  wire _231_;
+  wire _232_;
+  wire _233_;
+  wire _234_;
+  wire _235_;
+  wire _236_;
+  wire _237_;
+  wire _238_;
+  wire _239_;
+  wire _240_;
+  wire _241_;
+  wire _242_;
+  wire _243_;
+  wire _244_;
+  wire _245_;
+  wire _246_;
+  wire _247_;
+  wire _248_;
+  wire _249_;
+  wire _250_;
+  wire _251_;
+  wire _252_;
+  wire _253_;
+  wire _254_;
+  wire _255_;
+  wire _256_;
+  wire _257_;
+  wire _258_;
+  wire _259_;
+  wire _260_;
+  wire _261_;
+  wire _262_;
+  wire _263_;
+  wire _264_;
+  wire _265_;
+  wire _266_;
+  wire _267_;
+  wire _268_;
+  wire _269_;
+  wire _270_;
+  wire _271_;
+  wire _272_;
+  wire _273_;
+  wire _274_;
+  wire _275_;
+  wire _276_;
+  wire _277_;
+  wire _278_;
+  wire _279_;
+  wire _280_;
+  wire _281_;
+  wire _282_;
+  wire _283_;
+  wire _284_;
+  wire _285_;
+  wire _286_;
+  wire _287_;
+  wire _288_;
+  wire _289_;
+  wire _290_;
+  wire _291_;
+  wire _292_;
+  wire _293_;
+  wire _294_;
+  wire _295_;
+  wire _296_;
+  wire _297_;
+  wire _298_;
+  wire _299_;
+  wire _300_;
+  wire _301_;
+  wire _302_;
+  wire _303_;
+  wire _304_;
+  wire _305_;
+  wire _306_;
+  wire _307_;
+  wire _308_;
+  wire _309_;
+  wire _310_;
+  wire _311_;
+  wire _312_;
+  wire _313_;
+  wire _314_;
+  wire _315_;
+  wire _316_;
+  wire _317_;
+  wire _318_;
+  wire _319_;
+  wire _320_;
+  wire _321_;
+  wire _322_;
+  wire _323_;
+  wire _324_;
+  wire _325_;
+  wire _326_;
+  wire _327_;
+  wire _328_;
+  wire _329_;
+  wire _330_;
+  wire _331_;
+  wire _332_;
+  wire _333_;
+  wire _334_;
+  wire _335_;
+  wire _336_;
+  wire _337_;
+  wire _338_;
+  wire _339_;
+  wire _340_;
+  wire _341_;
+  wire _342_;
+  wire _343_;
+  wire _344_;
+  wire _345_;
+  wire _346_;
+  wire _347_;
+  wire _348_;
+  wire _349_;
+  wire _350_;
+  wire _351_;
+  wire _352_;
+  wire _353_;
+  wire _354_;
+  wire _355_;
+  wire _356_;
+  wire _357_;
+  wire _358_;
+  wire _359_;
+  wire _360_;
+  wire _361_;
+  wire _362_;
+  wire _363_;
+  wire _364_;
+  wire _365_;
+  wire _366_;
+  wire _367_;
+  wire _368_;
+  wire _369_;
+  wire _370_;
+  wire _371_;
+  wire _372_;
+  wire _373_;
+  wire _374_;
+  wire _375_;
+  wire _376_;
+  wire _377_;
+  wire _378_;
+  wire _379_;
+  wire _380_;
+  wire _381_;
+  wire _382_;
+  wire _383_;
+  wire _384_;
+  wire _385_;
+  wire _386_;
+  wire _387_;
+  wire _388_;
+  wire _389_;
+  wire _390_;
   (* src = "alu16bit.v:9.16-9.19" *)
   wire [16:0] tmp;
-  assign _085_[204] = ~_092_[0];
-  assign _000_ = ~ALU_Sel[1];
-  assign _002_ = ~ALU_Sel[2];
-  assign _001_ = ~ALU_Sel[0];
-  assign _003_ = ~ALU_Sel[3];
-  assign _086_[95] = A[9] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[96] = A[10] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[97] = A[11] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[98] = A[12] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[99] = A[13] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[100] = A[14] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[101] = A[15] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[68] = A[1] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[69] = A[2] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[70] = A[3] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[71] = A[4] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[72] = A[5] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[73] = A[6] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[74] = A[7] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[75] = A[8] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[76] = A[9] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[77] = A[10] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[78] = A[11] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[79] = A[12] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[80] = A[13] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[81] = A[14] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[82] = A[15] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[4];
-  assign _086_[51] = A[15] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[52] = A[0] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[53] = A[1] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[54] = A[2] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[55] = A[3] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[56] = A[4] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[57] = A[5] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[58] = A[6] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[59] = A[7] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[60] = A[8] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[61] = A[9] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[62] = A[10] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[63] = A[11] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[64] = A[12] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[65] = A[13] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[66] = A[14] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[3];
-  assign _086_[34] = A[1] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[35] = A[2] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[36] = A[3] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[37] = A[4] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[38] = A[5] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[39] = A[6] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[40] = A[7] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[41] = A[8] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[42] = A[9] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[43] = A[10] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[44] = A[11] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[45] = A[12] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[46] = A[13] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[47] = A[14] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[48] = A[15] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[49] = A[0] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[2];
-  assign _086_[17] = _085_[17] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[1];
-  assign _086_[0] = _085_[0] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[0];
-  assign _085_[222] = _085_[154] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _085_[187];
-  assign _085_[223] = _085_[155] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[1];
-  assign _085_[224] = _085_[156] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[2];
-  assign _085_[225] = _085_[157] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[3];
-  assign _085_[226] = _085_[158] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[4];
-  assign _085_[227] = _085_[159] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[5];
-  assign _085_[228] = _085_[160] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[6];
-  assign _085_[229] = _085_[161] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[7];
-  assign _085_[230] = _085_[162] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[8];
-  assign _085_[231] = _085_[163] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[9];
-  assign _085_[232] = _085_[164] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[10];
-  assign _085_[233] = _085_[165] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[11];
-  assign _085_[234] = _085_[166] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[12];
-  assign _085_[235] = _085_[167] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[13];
-  assign _085_[236] = _085_[168] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _089_[14];
-  assign _085_[170] = A[0] |(* src = "alu16bit.v:24.30-24.35" *)  B[0];
-  assign _085_[171] = A[1] |(* src = "alu16bit.v:24.30-24.35" *)  B[1];
-  assign _085_[172] = A[2] |(* src = "alu16bit.v:24.30-24.35" *)  B[2];
-  assign _085_[173] = A[3] |(* src = "alu16bit.v:24.30-24.35" *)  B[3];
-  assign _085_[174] = A[4] |(* src = "alu16bit.v:24.30-24.35" *)  B[4];
-  assign _085_[175] = A[5] |(* src = "alu16bit.v:24.30-24.35" *)  B[5];
-  assign _085_[176] = A[6] |(* src = "alu16bit.v:24.30-24.35" *)  B[6];
-  assign _085_[177] = A[7] |(* src = "alu16bit.v:24.30-24.35" *)  B[7];
-  assign _085_[178] = A[8] |(* src = "alu16bit.v:24.30-24.35" *)  B[8];
-  assign _085_[179] = A[9] |(* src = "alu16bit.v:24.30-24.35" *)  B[9];
-  assign _085_[180] = A[10] |(* src = "alu16bit.v:24.30-24.35" *)  B[10];
-  assign _085_[181] = A[11] |(* src = "alu16bit.v:24.30-24.35" *)  B[11];
-  assign _085_[182] = A[12] |(* src = "alu16bit.v:24.30-24.35" *)  B[12];
-  assign _085_[183] = A[13] |(* src = "alu16bit.v:24.30-24.35" *)  B[13];
-  assign _085_[184] = A[14] |(* src = "alu16bit.v:24.30-24.35" *)  B[14];
-  assign _085_[185] = A[15] |(* src = "alu16bit.v:24.30-24.35" *)  B[15];
-  assign _085_[205] = _092_[1] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[0];
-  assign _085_[206] = _092_[2] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[1];
-  assign _085_[207] = _092_[3] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[2];
-  assign _085_[208] = _092_[4] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[3];
-  assign _085_[209] = _092_[5] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[4];
-  assign _085_[210] = _092_[6] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[5];
-  assign _085_[211] = _092_[7] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[6];
-  assign _085_[212] = _092_[8] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[7];
-  assign _085_[213] = _092_[9] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[8];
-  assign _085_[214] = _092_[10] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[9];
-  assign _085_[215] = _092_[11] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[10];
-  assign _085_[216] = _092_[12] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[11];
-  assign _085_[217] = _092_[13] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[12];
-  assign _085_[218] = _092_[14] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[13];
-  assign _085_[219] = _092_[15] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:296.13-296.25" *)  _091_[14];
-  assign _085_[187] = A[0] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[0];
-  assign _085_[188] = A[1] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[1];
-  assign _085_[189] = A[2] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[2];
-  assign _085_[190] = A[3] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[3];
-  assign _085_[191] = A[4] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[4];
-  assign _085_[192] = A[5] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[5];
-  assign _085_[193] = A[6] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[6];
-  assign _085_[194] = A[7] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[7];
-  assign _085_[195] = A[8] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[8];
-  assign _085_[196] = A[9] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[9];
-  assign _085_[197] = A[10] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[10];
-  assign _085_[198] = A[11] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[11];
-  assign _085_[199] = A[12] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[12];
-  assign _085_[200] = A[13] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[13];
-  assign _085_[201] = A[14] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[14];
-  assign _085_[202] = A[15] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  B[15];
-  assign _085_[153] = A[0] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[0];
-  assign _085_[154] = A[1] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[1];
-  assign _085_[155] = A[2] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[2];
-  assign _085_[156] = A[3] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[3];
-  assign _085_[157] = A[4] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[4];
-  assign _085_[158] = A[5] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[5];
-  assign _085_[159] = A[6] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[6];
-  assign _085_[160] = A[7] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[7];
-  assign _085_[161] = A[8] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[8];
-  assign _085_[162] = A[9] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[9];
-  assign _085_[163] = A[10] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[10];
-  assign _085_[164] = A[11] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[11];
-  assign _085_[166] = A[13] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[13];
-  assign _085_[167] = A[14] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[14];
-  assign _085_[168] = A[15] ^(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  B[15];
-  assign _089_[6] = _085_[193] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _129_;
-  assign _129_ = _085_[159] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _089_[5];
-  assign _131_ = _085_[163] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _089_[9];
-  assign _089_[4] = _085_[191] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _128_;
-  assign _128_ = _085_[157] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _089_[3];
-  assign _132_ = _085_[165] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _089_[11];
-  assign _089_[2] = _085_[189] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _127_;
-  assign _127_ = _085_[155] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _089_[1];
-  assign _089_[12] = _085_[199] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _132_;
-  assign _089_[13] = _139_ |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _126_;
-  assign _126_ = _117_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _089_[11];
-  assign _089_[8] = _085_[195] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _130_;
-  assign _089_[9] = _137_ |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _125_;
-  assign _125_ = _115_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _089_[7];
-  assign _133_ = _085_[167] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _089_[13];
-  assign _089_[5] = _135_ |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _124_;
-  assign _124_ = _113_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _089_[3];
-  assign _089_[14] = _085_[201] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _133_;
-  assign _089_[11] = _142_ |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _123_;
-  assign _123_ = _120_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _089_[7];
-  assign _130_ = _085_[161] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _089_[7];
-  assign _085_[237] = _144_ |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _111_;
-  assign _111_ = _122_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _089_[7];
-  assign _122_ = _121_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _120_;
-  assign _144_ = _143_ |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _110_;
-  assign _110_ = _121_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _142_;
-  assign _089_[7] = _141_ |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _109_;
-  assign _109_ = _119_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _089_[3];
-  assign _121_ = _118_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _117_;
-  assign _143_ = _140_ |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _108_;
-  assign _108_ = _118_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _139_;
-  assign _120_ = _116_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _115_;
-  assign _142_ = _138_ |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _107_;
-  assign _107_ = _116_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _137_;
-  assign _119_ = _114_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _113_;
-  assign _141_ = _136_ |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _106_;
-  assign _106_ = _114_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _135_;
-  assign _089_[3] = _134_ |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _105_;
-  assign _105_ = _112_ &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _089_[1];
-  assign _118_ = _085_[168] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _085_[167];
-  assign _140_ = _085_[202] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _104_;
-  assign _104_ = _085_[168] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _085_[201];
-  assign _117_ = _085_[166] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _085_[165];
-  assign _139_ = _085_[200] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _103_;
-  assign _103_ = _085_[166] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _085_[199];
-  assign _116_ = _085_[164] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _085_[163];
-  assign _138_ = _085_[198] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _102_;
-  assign _102_ = _085_[164] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _085_[197];
-  assign _115_ = _085_[162] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _085_[161];
-  assign _137_ = _085_[196] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _101_;
-  assign _101_ = _085_[162] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _085_[195];
-  assign _114_ = _085_[160] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _085_[159];
-  assign _136_ = _085_[194] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _100_;
-  assign _100_ = _085_[160] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _085_[193];
-  assign _113_ = _085_[158] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _085_[157];
-  assign _135_ = _085_[192] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _099_;
-  assign _099_ = _085_[158] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _085_[191];
-  assign _112_ = _085_[156] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _085_[155];
-  assign _134_ = _085_[190] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _098_;
-  assign _098_ = _085_[156] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _085_[189];
-  assign _089_[10] = _085_[197] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _131_;
-  assign _089_[1] = _085_[188] |(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _097_;
-  assign _097_ = _085_[154] &(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _085_[187];
-  assign _093_[0] = A[0] &(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[0];
-  assign _093_[2] = A[2] &(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[2];
-  assign _093_[4] = A[4] &(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[4];
-  assign _093_[9] = A[9] &(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[9];
-  assign _093_[10] = A[10] &(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[10];
-  assign _093_[11] = A[11] &(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[11];
-  assign _093_[12] = A[12] &(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[12];
-  assign _093_[13] = A[13] &(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[13];
-  assign _093_[15] = A[15] &(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[15];
-  assign _092_[1] = A[1] ^(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[1];
-  assign _092_[2] = A[2] ^(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[2];
-  assign _092_[4] = A[4] ^(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[4];
-  assign _092_[5] = A[5] ^(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[5];
-  assign _092_[6] = A[6] ^(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[6];
-  assign _092_[8] = A[8] ^(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[8];
-  assign _092_[11] = A[11] ^(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[11];
-  assign _092_[13] = A[13] ^(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[13];
-  assign _092_[14] = A[14] ^(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[14];
-  assign _092_[15] = A[15] ^(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[15];
-  assign _091_[13] = _176_ |(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _163_;
-  assign _091_[5] = _172_ |(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _161_;
-  assign _091_[15] = _181_ |(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _159_;
-  assign _091_[7] = _178_ |(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _157_;
-  assign _179_ = _175_ |(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _155_;
-  assign _091_[3] = _171_ |(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _153_;
-  assign _176_ = _093_[13] |(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _151_;
-  assign _174_ = _093_[9] |(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _149_;
-  assign _173_ = _093_[7] |(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _148_;
-  assign _148_ = _092_[7] &(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _093_[6];
-  assign _091_[1] = _093_[1] |(* src = "alu16bit.v:20.28-20.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _145_;
-  assign _093_[1] = A[1] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[1];
-  assign _093_[3] = A[3] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[3];
-  assign _093_[5] = A[5] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[5];
-  assign _093_[6] = A[6] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[6];
-  assign _093_[7] = A[7] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[7];
-  assign _093_[8] = A[8] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[8];
-  assign _093_[14] = A[14] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.26-205.31" *)  _090_[14];
-  assign _092_[0] = A[0] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[0];
-  assign _092_[3] = A[3] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[3];
-  assign _092_[7] = A[7] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[7];
-  assign _092_[9] = A[9] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[9];
-  assign _092_[10] = A[10] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[10];
-  assign _092_[12] = A[12] ^(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:292.26-292.70|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:205.14-205.19" *)  _090_[12];
-  assign _167_ = _092_[8] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _091_[7];
-  assign _091_[4] = _093_[4] |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _165_;
-  assign _165_ = _092_[4] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _091_[3];
-  assign _168_ = _092_[10] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _091_[9];
-  assign _091_[2] = _093_[2] |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _164_;
-  assign _164_ = _092_[2] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _091_[1];
-  assign _091_[10] = _093_[10] |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _168_;
-  assign _163_ = _016_[6] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _091_[11];
-  assign _091_[8] = _093_[8] |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _167_;
-  assign _091_[9] = _174_ |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _162_;
-  assign _162_ = _016_[4] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _091_[7];
-  assign _169_ = _092_[12] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _091_[11];
-  assign _161_ = _016_[2] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _091_[3];
-  assign _091_[12] = _093_[12] |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _169_;
-  assign _091_[11] = _179_ |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _160_;
-  assign _160_ = _017_[2] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _091_[7];
-  assign _091_[6] = _093_[6] |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _166_;
-  assign _159_ = _018_[1] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _091_[7];
-  assign _181_ = _180_ |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _158_;
-  assign _158_ = _017_[3] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _179_;
-  assign _170_ = _092_[14] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _091_[13];
-  assign _157_ = _017_[1] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _091_[3];
-  assign _180_ = _177_ |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _156_;
-  assign _156_ = _016_[7] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _176_;
-  assign _017_[2] = _016_[5] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _016_[4];
-  assign _155_ = _016_[5] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _174_;
-  assign _178_ = _173_ |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _154_;
-  assign _154_ = _016_[3] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _172_;
-  assign _091_[14] = _093_[14] |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.12-248.41" *)  _170_;
-  assign _153_ = _016_[1] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _091_[1];
-  assign _177_ = _093_[15] |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _152_;
-  assign _152_ = _092_[15] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _093_[14];
-  assign _016_[6] = _092_[13] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _092_[12];
-  assign _151_ = _092_[13] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _093_[12];
-  assign _175_ = _093_[11] |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _150_;
-  assign _150_ = _092_[11] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _093_[10];
-  assign _016_[4] = _092_[9] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _092_[8];
-  assign _149_ = _092_[9] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _093_[8];
-  assign _016_[2] = _092_[5] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _092_[4];
-  assign _172_ = _093_[5] |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _147_;
-  assign _147_ = _092_[5] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _093_[4];
-  assign _016_[1] = _092_[3] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:241.12-241.34" *)  _092_[2];
-  assign _171_ = _093_[3] |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.12-240.41" *)  _146_;
-  assign _146_ = _092_[3] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _093_[2];
-  assign _166_ = _092_[6] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:248.19-248.41" *)  _091_[5];
-  assign _145_ = _092_[1] &(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:240.19-240.41" *)  _091_[0];
-  assign _091_[0] = _093_[0] |(* src = "alu16bit.v:31.29-31.34|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:293.27-293.63|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:231.10-231.28" *)  _092_[0];
-  assign _085_[165] = A[12] ^(* src = "alu16bit.v:32.29-32.35" *)  B[12];
-  assign _095_ = _085_[220] | _094_;
-  assign _086_[221] = _085_[153] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[222] = _085_[222] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[223] = _085_[223] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[224] = _085_[224] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[225] = _085_[225] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[226] = _085_[226] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[227] = _085_[227] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[228] = _085_[228] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[229] = _085_[229] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[230] = _085_[230] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[231] = _085_[231] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[232] = _085_[232] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[233] = _085_[233] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[234] = _085_[234] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[235] = _085_[235] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[236] = _085_[236] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[237] = _085_[237] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[13];
-  assign _086_[204] = _085_[204] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[205] = _085_[205] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[206] = _085_[206] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[207] = _085_[207] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[208] = _085_[208] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[209] = _085_[209] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[210] = _085_[210] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[211] = _085_[211] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[212] = _085_[212] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[213] = _085_[213] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[214] = _085_[214] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[215] = _085_[215] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[216] = _085_[216] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[217] = _085_[217] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[218] = _085_[218] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[219] = _085_[219] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[220] = _085_[220] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[12];
-  assign _086_[187] = _085_[187] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[188] = _085_[188] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[189] = _085_[189] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[190] = _085_[190] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[191] = _085_[191] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[192] = _085_[192] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[193] = _085_[193] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[194] = _085_[194] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[195] = _085_[195] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[196] = _085_[196] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[197] = _085_[197] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[198] = _085_[198] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[199] = _085_[199] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[200] = _085_[200] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[201] = _085_[201] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[202] = _085_[202] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[11];
-  assign _086_[170] = _085_[170] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[171] = _085_[171] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[172] = _085_[172] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[173] = _085_[173] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[174] = _085_[174] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[175] = _085_[175] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[176] = _085_[176] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[177] = _085_[177] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[178] = _085_[178] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[179] = _085_[179] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[180] = _085_[180] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[181] = _085_[181] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[182] = _085_[182] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[183] = _085_[183] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[184] = _085_[184] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[185] = _085_[185] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[10];
-  assign _086_[153] = _085_[153] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[154] = _085_[154] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[155] = _085_[155] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[156] = _085_[156] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[157] = _085_[157] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[158] = _085_[158] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[159] = _085_[159] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[160] = _085_[160] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[161] = _085_[161] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[162] = _085_[162] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[163] = _085_[163] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[164] = _085_[164] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[165] = _085_[165] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[166] = _085_[166] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[167] = _085_[167] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[168] = _085_[168] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[9];
-  assign _086_[136] = _085_[136] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[137] = _085_[137] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[138] = _085_[138] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[139] = _085_[139] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[140] = _085_[140] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[141] = _085_[141] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[142] = _085_[142] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[143] = _085_[143] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[144] = _085_[144] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[145] = _085_[145] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[146] = _085_[146] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[147] = _085_[147] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[148] = _085_[148] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[149] = _085_[149] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[150] = _085_[150] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[151] = _085_[151] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[152];
-  assign _086_[119] = _085_[119] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[120] = _085_[120] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[121] = _085_[121] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[122] = _085_[122] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[123] = _085_[123] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[124] = _085_[124] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[125] = _085_[125] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[126] = _085_[126] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[127] = _085_[127] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[128] = _085_[128] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[129] = _085_[129] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[130] = _085_[130] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[131] = _085_[131] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[132] = _085_[132] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[133] = _085_[133] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[134] = _085_[134] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[135];
-  assign _086_[102] = _085_[102] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[103] = _085_[103] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[104] = _085_[104] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[105] = _085_[105] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[106] = _085_[106] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[107] = _085_[107] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[108] = _085_[108] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[109] = _085_[109] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[110] = _085_[110] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[111] = _085_[111] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[112] = _085_[112] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[113] = _085_[113] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[114] = _085_[114] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[115] = _085_[115] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[116] = _085_[116] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[117] = _085_[117] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _086_[118];
-  assign _086_[86] = A[0] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[87] = A[1] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[88] = A[2] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[89] = A[3] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[90] = A[4] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[91] = A[5] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[92] = A[6] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[93] = A[7] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _086_[94] = A[8] &(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:593.44-593.84" *)  _087_[5];
-  assign _004_[0] = _087_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)  _087_[1];
-  assign _004_[1] = _087_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)  _087_[3];
-  assign _004_[2] = _087_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)  _087_[5];
-  assign _004_[3] = _086_[118] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)  _086_[135];
-  assign _004_[4] = _086_[152] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)  _087_[9];
-  assign _004_[5] = _087_[10] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)  _087_[11];
-  assign _004_[6] = _087_[12] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)  _087_[13];
-  assign _005_[0] = _004_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)  _004_[1];
-  assign _005_[1] = _004_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)  _004_[3];
-  assign _005_[2] = _004_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)  _004_[5];
-  assign _006_[0] = _005_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)  _005_[1];
-  assign _006_[1] = _005_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)  _004_[6];
-  assign _096_ = _006_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.15" *)  _006_[1];
-  assign _007_[0] = _085_[153] |(* src = "alu16bit.v:32.29-32.35" *)  _085_[154];
-  assign _007_[1] = _085_[155] |(* src = "alu16bit.v:32.29-32.35" *)  _085_[156];
-  assign _007_[2] = _085_[157] |(* src = "alu16bit.v:32.29-32.35" *)  _085_[158];
-  assign _007_[3] = _085_[159] |(* src = "alu16bit.v:32.29-32.35" *)  _085_[160];
-  assign _007_[4] = _085_[161] |(* src = "alu16bit.v:32.29-32.35" *)  _085_[162];
-  assign _007_[5] = _085_[163] |(* src = "alu16bit.v:32.29-32.35" *)  _085_[164];
-  assign _007_[6] = _085_[165] |(* src = "alu16bit.v:32.29-32.35" *)  _085_[166];
-  assign _007_[7] = _085_[167] |(* src = "alu16bit.v:32.29-32.35" *)  _085_[168];
-  assign _008_[0] = _007_[0] |(* src = "alu16bit.v:32.29-32.35" *)  _007_[1];
-  assign _008_[1] = _007_[2] |(* src = "alu16bit.v:32.29-32.35" *)  _007_[3];
-  assign _008_[2] = _007_[4] |(* src = "alu16bit.v:32.29-32.35" *)  _007_[5];
-  assign _008_[3] = _007_[6] |(* src = "alu16bit.v:32.29-32.35" *)  _007_[7];
-  assign _009_[0] = _008_[0] |(* src = "alu16bit.v:32.29-32.35" *)  _008_[1];
-  assign _009_[1] = _008_[2] |(* src = "alu16bit.v:32.29-32.35" *)  _008_[3];
-  assign _071_ = _009_[0] |(* src = "alu16bit.v:32.29-32.35" *)  _009_[1];
-  assign _072_ = _010_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16" *)  _010_[1];
-  assign _010_[1] = _002_ |(* src = "alu16bit.v:30.44-30.44|alu16bit.v:17.9-36.16" *)  _003_;
-  assign _073_ = _011_[0] |(* src = "alu16bit.v:30.44-30.44|alu16bit.v:17.9-36.16" *)  _010_[1];
-  assign _074_ = _012_[0] |(* src = "alu16bit.v:29.45-29.45|alu16bit.v:17.9-36.16" *)  _012_[1];
-  assign _075_ = _013_[0] |(* src = "alu16bit.v:28.35-28.35|alu16bit.v:17.9-36.16" *)  _012_[1];
-  assign _076_ = _010_[0] |(* src = "alu16bit.v:27.35-27.35|alu16bit.v:17.9-36.16" *)  _012_[1];
-  assign _012_[1] = ALU_Sel[2] |(* src = "alu16bit.v:26.37-26.37|alu16bit.v:17.9-36.16" *)  _003_;
-  assign _077_ = _011_[0] |(* src = "alu16bit.v:26.37-26.37|alu16bit.v:17.9-36.16" *)  _012_[1];
-  assign _078_ = _012_[0] |(* src = "alu16bit.v:25.37-25.37|alu16bit.v:17.9-36.16" *)  _014_[1];
-  assign _079_ = _013_[0] |(* src = "alu16bit.v:24.37-24.37|alu16bit.v:17.9-36.16" *)  _014_[1];
-  assign _080_ = _010_[0] |(* src = "alu16bit.v:23.34-23.34|alu16bit.v:17.9-36.16" *)  _014_[1];
-  assign _014_[1] = _002_ |(* src = "alu16bit.v:22.34-22.34|alu16bit.v:17.9-36.16" *)  ALU_Sel[3];
-  assign _081_ = _011_[0] |(* src = "alu16bit.v:22.34-22.34|alu16bit.v:17.9-36.16" *)  _014_[1];
-  assign _012_[0] = _001_ |(* src = "alu16bit.v:21.34-21.34|alu16bit.v:17.9-36.16" *)  _000_;
-  assign _082_ = _012_[0] |(* src = "alu16bit.v:21.34-21.34|alu16bit.v:17.9-36.16" *)  _015_[1];
-  assign _013_[0] = ALU_Sel[0] |(* src = "alu16bit.v:20.34-20.34|alu16bit.v:17.9-36.16" *)  _000_;
-  assign _083_ = _013_[0] |(* src = "alu16bit.v:20.34-20.34|alu16bit.v:17.9-36.16" *)  _015_[1];
-  assign _010_[0] = _001_ |(* src = "alu16bit.v:19.34-19.34|alu16bit.v:17.9-36.16" *)  ALU_Sel[1];
-  assign _084_ = _010_[0] |(* src = "alu16bit.v:19.34-19.34|alu16bit.v:17.9-36.16" *)  _015_[1];
-  assign _016_[0] = _092_[0] &(* src = "alu16bit.v:31.29-31.34" *)  _092_[1];
-  assign _016_[3] = _092_[6] &(* src = "alu16bit.v:31.29-31.34" *)  _092_[7];
-  assign _016_[5] = _092_[10] &(* src = "alu16bit.v:31.29-31.34" *)  _092_[11];
-  assign _016_[7] = _092_[14] &(* src = "alu16bit.v:31.29-31.34" *)  _092_[15];
-  assign _017_[0] = _016_[0] &(* src = "alu16bit.v:31.29-31.34" *)  _016_[1];
-  assign _017_[1] = _016_[2] &(* src = "alu16bit.v:31.29-31.34" *)  _016_[3];
-  assign _017_[3] = _016_[6] &(* src = "alu16bit.v:31.29-31.34" *)  _016_[7];
-  assign _018_[0] = _017_[0] &(* src = "alu16bit.v:31.29-31.34" *)  _017_[1];
-  assign _018_[1] = _017_[2] &(* src = "alu16bit.v:31.29-31.34" *)  _017_[3];
-  assign _094_ = _018_[0] &(* src = "alu16bit.v:31.29-31.34" *)  _018_[1];
-  assign _019_[6] = _086_[220] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[237];
-  assign _020_[1] = _086_[101] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _004_[3];
-  assign _021_[1] = _086_[152] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _019_[6];
-  assign _088_[16] = _020_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _021_[1];
-  assign _022_[1] = _086_[49] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[66];
-  assign _022_[3] = _086_[117] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[134];
-  assign _022_[4] = _086_[151] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[168];
-  assign _022_[5] = _086_[185] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[202];
-  assign _022_[6] = _086_[219] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[236];
-  assign _023_[1] = _086_[100] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _022_[3];
-  assign _023_[2] = _022_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _022_[5];
-  assign _024_[0] = _022_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _023_[1];
-  assign _024_[1] = _023_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _022_[6];
-  assign _088_[15] = _024_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _024_[1];
-  assign _025_[1] = _086_[48] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[65];
-  assign _025_[2] = _086_[82] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[99];
-  assign _025_[3] = _086_[116] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[133];
-  assign _025_[4] = _086_[150] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[167];
-  assign _025_[5] = _086_[184] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[201];
-  assign _025_[6] = _086_[218] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[235];
-  assign _026_[1] = _025_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _025_[3];
-  assign _026_[2] = _025_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _025_[5];
-  assign _027_[0] = _025_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _026_[1];
-  assign _027_[1] = _026_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _025_[6];
-  assign _088_[14] = _027_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _027_[1];
-  assign _028_[1] = _086_[47] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[64];
-  assign _028_[2] = _086_[81] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[98];
-  assign _028_[3] = _086_[115] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[132];
-  assign _028_[4] = _086_[149] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[166];
-  assign _028_[5] = _086_[183] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[200];
-  assign _028_[6] = _086_[217] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[234];
-  assign _029_[1] = _028_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _028_[3];
-  assign _029_[2] = _028_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _028_[5];
-  assign _030_[0] = _028_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _029_[1];
-  assign _030_[1] = _029_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _028_[6];
-  assign _088_[13] = _030_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _030_[1];
-  assign _031_[1] = _086_[46] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[63];
-  assign _031_[2] = _086_[80] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[97];
-  assign _031_[3] = _086_[114] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[131];
-  assign _031_[4] = _086_[148] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[165];
-  assign _031_[5] = _086_[182] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[199];
-  assign _031_[6] = _086_[216] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[233];
-  assign _032_[1] = _031_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _031_[3];
-  assign _032_[2] = _031_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _031_[5];
-  assign _033_[0] = _031_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _032_[1];
-  assign _033_[1] = _032_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _031_[6];
-  assign _088_[12] = _033_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _033_[1];
-  assign _034_[1] = _086_[45] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[62];
-  assign _034_[2] = _086_[79] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[96];
-  assign _034_[3] = _086_[113] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[130];
-  assign _034_[4] = _086_[147] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[164];
-  assign _034_[5] = _086_[181] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[198];
-  assign _034_[6] = _086_[215] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[232];
-  assign _035_[1] = _034_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _034_[3];
-  assign _035_[2] = _034_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _034_[5];
-  assign _036_[0] = _034_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _035_[1];
-  assign _036_[1] = _035_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _034_[6];
-  assign _088_[11] = _036_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _036_[1];
-  assign _037_[1] = _086_[44] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[61];
-  assign _037_[2] = _086_[78] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[95];
-  assign _037_[3] = _086_[112] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[129];
-  assign _037_[4] = _086_[146] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[163];
-  assign _037_[5] = _086_[180] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[197];
-  assign _037_[6] = _086_[214] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[231];
-  assign _038_[1] = _037_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _037_[3];
-  assign _038_[2] = _037_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _037_[5];
-  assign _039_[0] = _037_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _038_[1];
-  assign _039_[1] = _038_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _037_[6];
-  assign _088_[10] = _039_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _039_[1];
-  assign _040_[1] = _086_[43] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[60];
-  assign _040_[2] = _086_[77] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[94];
-  assign _040_[3] = _086_[111] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[128];
-  assign _040_[4] = _086_[145] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[162];
-  assign _040_[5] = _086_[179] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[196];
-  assign _040_[6] = _086_[213] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[230];
-  assign _041_[1] = _040_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _040_[3];
-  assign _041_[2] = _040_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _040_[5];
-  assign _042_[0] = _040_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _041_[1];
-  assign _042_[1] = _041_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _040_[6];
-  assign _088_[9] = _042_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _042_[1];
-  assign _043_[1] = _086_[42] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[59];
-  assign _043_[2] = _086_[76] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[93];
-  assign _043_[3] = _086_[110] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[127];
-  assign _043_[4] = _086_[144] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[161];
-  assign _043_[5] = _086_[178] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[195];
-  assign _043_[6] = _086_[212] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[229];
-  assign _044_[1] = _043_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _043_[3];
-  assign _044_[2] = _043_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _043_[5];
-  assign _045_[0] = _043_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _044_[1];
-  assign _045_[1] = _044_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _043_[6];
-  assign _088_[8] = _045_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _045_[1];
-  assign _046_[1] = _086_[41] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[58];
-  assign _046_[2] = _086_[75] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[92];
-  assign _046_[3] = _086_[109] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[126];
-  assign _046_[4] = _086_[143] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[160];
-  assign _046_[5] = _086_[177] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[194];
-  assign _046_[6] = _086_[211] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[228];
-  assign _047_[1] = _046_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _046_[3];
-  assign _047_[2] = _046_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _046_[5];
-  assign _048_[0] = _046_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _047_[1];
-  assign _048_[1] = _047_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _046_[6];
-  assign _088_[7] = _048_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _048_[1];
-  assign _049_[1] = _086_[40] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[57];
-  assign _049_[2] = _086_[74] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[91];
-  assign _049_[3] = _086_[108] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[125];
-  assign _049_[4] = _086_[142] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[159];
-  assign _049_[5] = _086_[176] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[193];
-  assign _049_[6] = _086_[210] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[227];
-  assign _050_[1] = _049_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _049_[3];
-  assign _050_[2] = _049_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _049_[5];
-  assign _051_[0] = _049_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _050_[1];
-  assign _051_[1] = _050_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _049_[6];
-  assign _088_[6] = _051_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _051_[1];
-  assign _052_[1] = _086_[39] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[56];
-  assign _052_[2] = _086_[73] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[90];
-  assign _052_[3] = _086_[107] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[124];
-  assign _052_[4] = _086_[141] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[158];
-  assign _052_[5] = _086_[175] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[192];
-  assign _052_[6] = _086_[209] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[226];
-  assign _053_[1] = _052_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _052_[3];
-  assign _053_[2] = _052_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _052_[5];
-  assign _054_[0] = _052_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _053_[1];
-  assign _054_[1] = _053_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _052_[6];
-  assign _088_[5] = _054_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _054_[1];
-  assign _055_[1] = _086_[38] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[55];
-  assign _055_[2] = _086_[72] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[89];
-  assign _055_[3] = _086_[106] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[123];
-  assign _055_[4] = _086_[140] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[157];
-  assign _055_[5] = _086_[174] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[191];
-  assign _055_[6] = _086_[208] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[225];
-  assign _056_[1] = _055_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _055_[3];
-  assign _056_[2] = _055_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _055_[5];
-  assign _057_[0] = _055_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _056_[1];
-  assign _057_[1] = _056_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _055_[6];
-  assign _088_[4] = _057_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _057_[1];
-  assign _058_[1] = _086_[37] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[54];
-  assign _058_[2] = _086_[71] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[88];
-  assign _058_[3] = _086_[105] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[122];
-  assign _058_[4] = _086_[139] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[156];
-  assign _058_[5] = _086_[173] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[190];
-  assign _058_[6] = _086_[207] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[224];
-  assign _059_[1] = _058_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _058_[3];
-  assign _059_[2] = _058_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _058_[5];
-  assign _060_[0] = _058_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _059_[1];
-  assign _060_[1] = _059_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _058_[6];
-  assign _088_[3] = _060_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _060_[1];
-  assign _061_[1] = _086_[36] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[53];
-  assign _061_[2] = _086_[70] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[87];
-  assign _061_[3] = _086_[104] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[121];
-  assign _061_[4] = _086_[138] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[155];
-  assign _061_[5] = _086_[172] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[189];
-  assign _061_[6] = _086_[206] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[223];
-  assign _062_[1] = _061_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _061_[3];
-  assign _062_[2] = _061_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _061_[5];
-  assign _063_[0] = _061_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _062_[1];
-  assign _063_[1] = _062_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _061_[6];
-  assign _088_[2] = _063_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _063_[1];
-  assign _064_[1] = _086_[35] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[52];
-  assign _064_[2] = _086_[69] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[86];
-  assign _064_[3] = _086_[103] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[120];
-  assign _064_[4] = _086_[137] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[154];
-  assign _064_[5] = _086_[171] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[188];
-  assign _064_[6] = _086_[205] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[222];
-  assign _065_[1] = _064_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _064_[3];
-  assign _065_[2] = _064_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _064_[5];
-  assign _066_[0] = _064_[1] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _065_[1];
-  assign _066_[1] = _065_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _064_[6];
-  assign _088_[1] = _066_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _066_[1];
-  assign _067_[0] = _086_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[17];
-  assign _067_[1] = _086_[34] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[51];
-  assign _067_[3] = _086_[102] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[119];
-  assign _067_[4] = _086_[136] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[153];
-  assign _067_[5] = _086_[170] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[187];
-  assign _067_[6] = _086_[204] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _086_[221];
-  assign _068_[0] = _067_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _067_[1];
-  assign _068_[1] = _086_[68] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _067_[3];
-  assign _068_[2] = _067_[4] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _067_[5];
-  assign _069_[0] = _068_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _068_[1];
-  assign _069_[1] = _068_[2] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _067_[6];
-  assign _088_[0] = _069_[0] |(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:601.20-601.31" *)  _069_[1];
-  assign _011_[0] = ALU_Sel[0] |(* src = "alu16bit.v:17.23-17.23|alu16bit.v:17.9-36.16" *)  ALU_Sel[1];
-  assign _015_[1] = ALU_Sel[2] |(* src = "alu16bit.v:17.23-17.23|alu16bit.v:17.9-36.16" *)  ALU_Sel[3];
-  assign _070_ = _011_[0] |(* src = "alu16bit.v:17.23-17.23|alu16bit.v:17.9-36.16" *)  _015_[1];
-  assign _087_[0] = ~(* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16" *) _072_;
-  assign _087_[1] = ~(* src = "alu16bit.v:30.44-30.44|alu16bit.v:17.9-36.16" *) _073_;
-  assign _087_[2] = ~(* src = "alu16bit.v:29.45-29.45|alu16bit.v:17.9-36.16" *) _074_;
-  assign _087_[3] = ~(* src = "alu16bit.v:28.35-28.35|alu16bit.v:17.9-36.16" *) _075_;
-  assign _087_[4] = ~(* src = "alu16bit.v:27.35-27.35|alu16bit.v:17.9-36.16" *) _076_;
-  assign _087_[5] = ~(* src = "alu16bit.v:26.37-26.37|alu16bit.v:17.9-36.16" *) _077_;
-  assign _086_[118] = ~(* src = "alu16bit.v:25.37-25.37|alu16bit.v:17.9-36.16" *) _078_;
-  assign _086_[135] = ~(* src = "alu16bit.v:24.37-24.37|alu16bit.v:17.9-36.16" *) _079_;
-  assign _086_[152] = ~(* src = "alu16bit.v:23.34-23.34|alu16bit.v:17.9-36.16" *) _080_;
-  assign _087_[9] = ~(* src = "alu16bit.v:22.34-22.34|alu16bit.v:17.9-36.16" *) _081_;
-  assign _087_[10] = ~(* src = "alu16bit.v:21.34-21.34|alu16bit.v:17.9-36.16" *) _082_;
-  assign _087_[11] = ~(* src = "alu16bit.v:20.34-20.34|alu16bit.v:17.9-36.16" *) _083_;
-  assign _087_[12] = ~(* src = "alu16bit.v:19.34-19.34|alu16bit.v:17.9-36.16" *) _084_;
-  assign _087_[13] = ~(* src = "alu16bit.v:17.23-17.23|alu16bit.v:17.9-36.16" *) _070_;
-  assign ALU_Out[0] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[0] : 1'h0;
-  assign ALU_Out[1] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[1] : 1'h0;
-  assign ALU_Out[2] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[2] : 1'h0;
-  assign ALU_Out[3] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[3] : 1'h0;
-  assign ALU_Out[4] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[4] : 1'h0;
-  assign ALU_Out[5] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[5] : 1'h0;
-  assign ALU_Out[6] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[6] : 1'h0;
-  assign ALU_Out[7] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[7] : 1'h0;
-  assign ALU_Out[8] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[8] : 1'h0;
-  assign ALU_Out[9] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[9] : 1'h0;
-  assign ALU_Out[10] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[10] : 1'h0;
-  assign ALU_Out[11] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[11] : 1'h0;
-  assign ALU_Out[12] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[12] : 1'h0;
-  assign ALU_Out[13] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[13] : 1'h0;
-  assign ALU_Out[14] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[14] : 1'h0;
-  assign ALU_Out[15] = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[15] : 1'h0;
-  assign CarryOut = _096_ ? (* src = "alu16bit.v:31.53-31.53|alu16bit.v:17.9-36.16|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:605.13-605.25" *) _088_[16] : 1'h0;
-  assign _085_[17] = ~(* src = "alu16bit.v:31.28-31.52" *) _095_;
-  assign _085_[0] = ~(* src = "alu16bit.v:32.28-32.52" *) _071_;
-  assign _090_[0] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[0];
-  assign _090_[1] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[1];
-  assign _090_[2] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[2];
-  assign _090_[3] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[3];
-  assign _090_[4] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[4];
-  assign _090_[5] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[5];
-  assign _090_[6] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[6];
-  assign _090_[7] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[7];
-  assign _090_[8] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[8];
-  assign _090_[9] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[9];
-  assign _090_[10] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[10];
-  assign _090_[11] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[11];
-  assign _090_[12] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[12];
-  assign _090_[13] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[13];
-  assign _090_[14] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[14];
-  assign _090_[15] = ~(* src = "alu16bit.v:19.28-19.33|/apps/vlsi/tools/yosys/bin/../share/yosys/techmap.v:279.31-279.37" *) B[15];
-  assign _085_[136] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[170];
-  assign _085_[137] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[171];
-  assign _085_[138] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[172];
-  assign _085_[139] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[173];
-  assign _085_[140] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[174];
-  assign _085_[141] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[175];
-  assign _085_[142] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[176];
-  assign _085_[143] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[177];
-  assign _085_[144] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[178];
-  assign _085_[145] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[179];
-  assign _085_[146] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[180];
-  assign _085_[147] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[181];
-  assign _085_[148] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[182];
-  assign _085_[149] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[183];
-  assign _085_[150] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[184];
-  assign _085_[151] = ~(* src = "alu16bit.v:24.28-24.36" *) _085_[185];
-  assign _085_[119] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[187];
-  assign _085_[120] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[188];
-  assign _085_[121] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[189];
-  assign _085_[122] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[190];
-  assign _085_[123] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[191];
-  assign _085_[124] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[192];
-  assign _085_[125] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[193];
-  assign _085_[126] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[194];
-  assign _085_[127] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[195];
-  assign _085_[128] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[196];
-  assign _085_[129] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[197];
-  assign _085_[130] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[198];
-  assign _085_[131] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[199];
-  assign _085_[132] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[200];
-  assign _085_[133] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[201];
-  assign _085_[134] = ~(* src = "alu16bit.v:25.28-25.36" *) _085_[202];
-  assign _085_[102] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[153];
-  assign _085_[103] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[154];
-  assign _085_[104] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[155];
-  assign _085_[105] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[156];
-  assign _085_[106] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[157];
-  assign _085_[107] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[158];
-  assign _085_[108] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[159];
-  assign _085_[109] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[160];
-  assign _085_[110] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[161];
-  assign _085_[111] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[162];
-  assign _085_[112] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[163];
-  assign _085_[113] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[164];
-  assign _085_[114] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[165];
-  assign _085_[115] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[166];
-  assign _085_[116] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[167];
-  assign _085_[117] = ~(* src = "alu16bit.v:26.28-26.36" *) _085_[168];
-  assign _085_[220] = ~(* src = "alu16bit.v:31.29-31.34" *) _091_[15];
-  assign _067_[2] = _086_[68];
-  assign { _089_[16:15], _089_[0] } = { 1'h0, _085_[237], _085_[187] };
-  assign _065_[0] = _064_[1];
-  assign _064_[0] = 1'h0;
-  assign _062_[0] = _061_[1];
-  assign _061_[0] = 1'h0;
-  assign _059_[0] = _058_[1];
-  assign _058_[0] = 1'h0;
-  assign _056_[0] = _055_[1];
-  assign _055_[0] = 1'h0;
-  assign _015_[0] = _012_[0];
-  assign _053_[0] = _052_[1];
-  assign _052_[0] = 1'h0;
-  assign _050_[0] = _049_[1];
-  assign _049_[0] = 1'h0;
-  assign _047_[0] = _046_[1];
-  assign _046_[0] = 1'h0;
-  assign _014_[0] = _012_[0];
-  assign _044_[0] = _043_[1];
-  assign _043_[0] = 1'h0;
-  assign _041_[0] = _040_[1];
-  assign _040_[0] = 1'h0;
-  assign _013_[1] = _012_[1];
-  assign _038_[0] = _037_[1];
-  assign _037_[0] = 1'h0;
-  assign _011_[1] = _010_[1];
-  assign _035_[0] = _034_[1];
-  assign { _085_[221], _085_[203], _085_[186], _085_[169], _085_[152], _085_[135], _085_[118], _085_[101:18], _085_[16:1] } = { _085_[153], 6'h07, A, 3'h0, A[15:1], 1'h0, A[14:0], A[15], 1'h0, A[0], A[15:1], 32'h00000000 };
-  assign _087_[8:6] = { _086_[152], _086_[135], _086_[118] };
-  assign _034_[0] = 1'h0;
-  assign { _086_[203], _086_[186], _086_[169], _086_[85:83], _086_[67], _086_[50], _086_[33:18], _086_[16:1] } = 40'h0000000000;
-  assign _032_[0] = _031_[1];
-  assign _031_[0] = 1'h0;
-  assign _029_[0] = _028_[1];
-  assign _028_[0] = 1'h0;
-  assign _026_[0] = _025_[1];
-  assign _025_[0] = 1'h0;
-  assign _023_[0] = _022_[1];
-  assign { _022_[2], _022_[0] } = { _086_[100], 1'h0 };
-  assign _021_[0] = _020_[1];
-  assign { _020_[2], _020_[0] } = { _086_[152], 1'h0 };
-  assign _019_[5:0] = { 1'h0, _086_[152], _004_[3], _086_[101], 2'h0 };
+  INVX1 _391_ (
+    .A(B[13]),
+    .Y(_345_)
+  );
+  INVX1 _392_ (
+    .A(A[5]),
+    .Y(_346_)
+  );
+  INVX1 _393_ (
+    .A(A[0]),
+    .Y(_347_)
+  );
+  INVX1 _394_ (
+    .A(A[14]),
+    .Y(_348_)
+  );
+  INVX1 _395_ (
+    .A(A[15]),
+    .Y(_349_)
+  );
+  INVX1 _396_ (
+    .A(A[9]),
+    .Y(_350_)
+  );
+  INVX1 _397_ (
+    .A(A[8]),
+    .Y(_351_)
+  );
+  INVX1 _398_ (
+    .A(A[6]),
+    .Y(_352_)
+  );
+  INVX1 _399_ (
+    .A(A[1]),
+    .Y(_353_)
+  );
+  INVX1 _400_ (
+    .A(B[3]),
+    .Y(_354_)
+  );
+  INVX1 _401_ (
+    .A(B[7]),
+    .Y(_355_)
+  );
+  INVX1 _402_ (
+    .A(ALU_Sel[2]),
+    .Y(_356_)
+  );
+  INVX1 _403_ (
+    .A(ALU_Sel[1]),
+    .Y(_357_)
+  );
+  INVX1 _404_ (
+    .A(B[11]),
+    .Y(_358_)
+  );
+  INVX1 _405_ (
+    .A(B[2]),
+    .Y(_359_)
+  );
+  INVX1 _406_ (
+    .A(B[0]),
+    .Y(_360_)
+  );
+  INVX1 _407_ (
+    .A(B[4]),
+    .Y(_361_)
+  );
+  INVX1 _408_ (
+    .A(B[10]),
+    .Y(_362_)
+  );
+  INVX1 _409_ (
+    .A(B[12]),
+    .Y(_363_)
+  );
+  NAND2X1 _410_ (
+    .A(A[4]),
+    .B(_361_),
+    .Y(_364_)
+  );
+  XNOR2X1 _411_ (
+    .A(A[4]),
+    .B(B[4]),
+    .Y(_365_)
+  );
+  XOR2X1 _412_ (
+    .A(A[4]),
+    .B(B[4]),
+    .Y(_366_)
+  );
+  NAND2X1 _413_ (
+    .A(A[3]),
+    .B(_354_),
+    .Y(_367_)
+  );
+  INVX1 _414_ (
+    .A(_367_),
+    .Y(_368_)
+  );
+  AND2X1 _415_ (
+    .A(A[3]),
+    .B(B[3]),
+    .Y(_369_)
+  );
+  NOR2X1 _416_ (
+    .A(A[3]),
+    .B(B[3]),
+    .Y(_370_)
+  );
+  OR2X1 _417_ (
+    .A(A[3]),
+    .B(B[3]),
+    .Y(_371_)
+  );
+  NOR2X1 _418_ (
+    .A(_369_),
+    .B(_370_),
+    .Y(_372_)
+  );
+  INVX1 _419_ (
+    .A(_372_),
+    .Y(_373_)
+  );
+  NAND2X1 _420_ (
+    .A(A[2]),
+    .B(_359_),
+    .Y(_374_)
+  );
+  AND2X1 _421_ (
+    .A(A[2]),
+    .B(B[2]),
+    .Y(_375_)
+  );
+  NAND2X1 _422_ (
+    .A(A[2]),
+    .B(B[2]),
+    .Y(_376_)
+  );
+  NOR2X1 _423_ (
+    .A(A[2]),
+    .B(B[2]),
+    .Y(_377_)
+  );
+  NOR2X1 _424_ (
+    .A(_375_),
+    .B(_377_),
+    .Y(_378_)
+  );
+  NOR2X1 _425_ (
+    .A(_353_),
+    .B(B[1]),
+    .Y(_379_)
+  );
+  AND2X1 _426_ (
+    .A(A[1]),
+    .B(B[1]),
+    .Y(_380_)
+  );
+  NAND2X1 _427_ (
+    .A(A[1]),
+    .B(B[1]),
+    .Y(_381_)
+  );
+  NOR2X1 _428_ (
+    .A(A[1]),
+    .B(B[1]),
+    .Y(_382_)
+  );
+  XOR2X1 _429_ (
+    .A(A[1]),
+    .B(B[1]),
+    .Y(_383_)
+  );
+  AND2X1 _430_ (
+    .A(A[0]),
+    .B(B[0]),
+    .Y(_384_)
+  );
+  NAND2X1 _431_ (
+    .A(A[0]),
+    .B(B[0]),
+    .Y(_385_)
+  );
+  NOR2X1 _432_ (
+    .A(A[0]),
+    .B(B[0]),
+    .Y(_386_)
+  );
+  OR2X1 _433_ (
+    .A(_384_),
+    .B(_386_),
+    .Y(_387_)
+  );
+  AOI21X1 _434_ (
+    .A(_347_),
+    .B(B[0]),
+    .C(_383_),
+    .Y(_388_)
+  );
+  NOR2X1 _435_ (
+    .A(_379_),
+    .B(_388_),
+    .Y(_389_)
+  );
+  OAI22X1 _436_ (
+    .A(_375_),
+    .B(_377_),
+    .C(_379_),
+    .D(_388_),
+    .Y(_390_)
+  );
+  OAI21X1 _437_ (
+    .A(_378_),
+    .B(_389_),
+    .C(_374_),
+    .Y(_000_)
+  );
+  AOI21X1 _438_ (
+    .A(_374_),
+    .B(_390_),
+    .C(_372_),
+    .Y(_001_)
+  );
+  NOR2X1 _439_ (
+    .A(_368_),
+    .B(_001_),
+    .Y(_002_)
+  );
+  OAI21X1 _440_ (
+    .A(_368_),
+    .B(_001_),
+    .C(_365_),
+    .Y(_003_)
+  );
+  NOR2X1 _441_ (
+    .A(ALU_Sel[2]),
+    .B(ALU_Sel[3]),
+    .Y(_004_)
+  );
+  OR2X1 _442_ (
+    .A(ALU_Sel[2]),
+    .B(ALU_Sel[3]),
+    .Y(_005_)
+  );
+  NAND2X1 _443_ (
+    .A(ALU_Sel[0]),
+    .B(_004_),
+    .Y(_006_)
+  );
+  NOR2X1 _444_ (
+    .A(ALU_Sel[1]),
+    .B(_006_),
+    .Y(_007_)
+  );
+  OR2X1 _445_ (
+    .A(ALU_Sel[1]),
+    .B(_006_),
+    .Y(_008_)
+  );
+  AOI21X1 _446_ (
+    .A(_366_),
+    .B(_002_),
+    .C(_008_),
+    .Y(_009_)
+  );
+  OAI21X1 _447_ (
+    .A(_366_),
+    .B(_002_),
+    .C(_009_),
+    .Y(_010_)
+  );
+  AOI21X1 _448_ (
+    .A(_383_),
+    .B(_384_),
+    .C(_380_),
+    .Y(_011_)
+  );
+  AOI21X1 _449_ (
+    .A(_376_),
+    .B(_011_),
+    .C(_377_),
+    .Y(_012_)
+  );
+  OAI21X1 _450_ (
+    .A(_369_),
+    .B(_012_),
+    .C(_371_),
+    .Y(_013_)
+  );
+  OR2X1 _451_ (
+    .A(ALU_Sel[0]),
+    .B(ALU_Sel[1]),
+    .Y(_014_)
+  );
+  NOR2X1 _452_ (
+    .A(ALU_Sel[3]),
+    .B(_014_),
+    .Y(_015_)
+  );
+  NOR2X1 _453_ (
+    .A(_005_),
+    .B(_014_),
+    .Y(_016_)
+  );
+  NAND2X1 _454_ (
+    .A(_356_),
+    .B(_015_),
+    .Y(_017_)
+  );
+  XNOR2X1 _455_ (
+    .A(_366_),
+    .B(_013_),
+    .Y(_018_)
+  );
+  AND2X1 _456_ (
+    .A(_356_),
+    .B(ALU_Sel[3]),
+    .Y(_019_)
+  );
+  INVX1 _457_ (
+    .A(_019_),
+    .Y(_020_)
+  );
+  AND2X1 _458_ (
+    .A(ALU_Sel[0]),
+    .B(_019_),
+    .Y(_021_)
+  );
+  NAND2X1 _459_ (
+    .A(A[4]),
+    .B(B[4]),
+    .Y(_022_)
+  );
+  NOR2X1 _460_ (
+    .A(ALU_Sel[0]),
+    .B(_357_),
+    .Y(_023_)
+  );
+  INVX1 _461_ (
+    .A(_023_),
+    .Y(_024_)
+  );
+  NOR2X1 _462_ (
+    .A(_005_),
+    .B(_024_),
+    .Y(_025_)
+  );
+  NAND2X1 _463_ (
+    .A(_004_),
+    .B(_023_),
+    .Y(_026_)
+  );
+  NOR2X1 _464_ (
+    .A(_356_),
+    .B(ALU_Sel[3]),
+    .Y(_027_)
+  );
+  AND2X1 _465_ (
+    .A(_023_),
+    .B(_027_),
+    .Y(_028_)
+  );
+  NAND2X1 _466_ (
+    .A(_023_),
+    .B(_027_),
+    .Y(_029_)
+  );
+  NOR2X1 _467_ (
+    .A(ALU_Sel[0]),
+    .B(_020_),
+    .Y(_030_)
+  );
+  NOR2X1 _468_ (
+    .A(A[4]),
+    .B(B[4]),
+    .Y(_031_)
+  );
+  AND2X1 _469_ (
+    .A(ALU_Sel[0]),
+    .B(_027_),
+    .Y(_032_)
+  );
+  NAND2X1 _470_ (
+    .A(ALU_Sel[0]),
+    .B(_027_),
+    .Y(_033_)
+  );
+  NOR2X1 _471_ (
+    .A(ALU_Sel[1]),
+    .B(_033_),
+    .Y(_034_)
+  );
+  NAND2X1 _472_ (
+    .A(_357_),
+    .B(_032_),
+    .Y(_035_)
+  );
+  OAI21X1 _473_ (
+    .A(ALU_Sel[1]),
+    .B(_033_),
+    .C(_031_),
+    .Y(_036_)
+  );
+  NOR2X1 _474_ (
+    .A(_357_),
+    .B(_006_),
+    .Y(_037_)
+  );
+  OR2X1 _475_ (
+    .A(_357_),
+    .B(_006_),
+    .Y(_038_)
+  );
+  OAI21X1 _476_ (
+    .A(_031_),
+    .B(_037_),
+    .C(_036_),
+    .Y(_039_)
+  );
+  NOR2X1 _477_ (
+    .A(_357_),
+    .B(_033_),
+    .Y(_040_)
+  );
+  NAND2X1 _478_ (
+    .A(ALU_Sel[1]),
+    .B(_032_),
+    .Y(_041_)
+  );
+  AND2X1 _479_ (
+    .A(ALU_Sel[2]),
+    .B(_015_),
+    .Y(_042_)
+  );
+  NAND2X1 _480_ (
+    .A(ALU_Sel[2]),
+    .B(_015_),
+    .Y(_043_)
+  );
+  AOI22X1 _481_ (
+    .A(A[5]),
+    .B(_021_),
+    .C(_040_),
+    .D(_365_),
+    .Y(_044_)
+  );
+  MUX2X1 _482_ (
+    .A(_028_),
+    .B(_025_),
+    .S(_022_),
+    .Y(_045_)
+  );
+  OAI21X1 _483_ (
+    .A(_365_),
+    .B(_043_),
+    .C(_045_),
+    .Y(_046_)
+  );
+  AOI21X1 _484_ (
+    .A(A[3]),
+    .B(_030_),
+    .C(_046_),
+    .Y(_047_)
+  );
+  NAND3X1 _485_ (
+    .A(_039_),
+    .B(_044_),
+    .C(_047_),
+    .Y(_048_)
+  );
+  AOI21X1 _486_ (
+    .A(_016_),
+    .B(_018_),
+    .C(_048_),
+    .Y(_049_)
+  );
+  NAND2X1 _487_ (
+    .A(_010_),
+    .B(_049_),
+    .Y(ALU_Out[4])
+  );
+  NAND2X1 _488_ (
+    .A(A[15]),
+    .B(B[15]),
+    .Y(_050_)
+  );
+  NAND2X1 _489_ (
+    .A(A[14]),
+    .B(B[14]),
+    .Y(_051_)
+  );
+  XNOR2X1 _490_ (
+    .A(A[14]),
+    .B(B[14]),
+    .Y(_052_)
+  );
+  AND2X1 _491_ (
+    .A(A[13]),
+    .B(B[13]),
+    .Y(_053_)
+  );
+  NOR2X1 _492_ (
+    .A(A[13]),
+    .B(B[13]),
+    .Y(_054_)
+  );
+  NOR2X1 _493_ (
+    .A(_053_),
+    .B(_054_),
+    .Y(_055_)
+  );
+  OR2X1 _494_ (
+    .A(_053_),
+    .B(_054_),
+    .Y(_056_)
+  );
+  NAND2X1 _495_ (
+    .A(A[12]),
+    .B(B[12]),
+    .Y(_057_)
+  );
+  NOR2X1 _496_ (
+    .A(A[12]),
+    .B(B[12]),
+    .Y(_058_)
+  );
+  INVX1 _497_ (
+    .A(_058_),
+    .Y(_059_)
+  );
+  NAND2X1 _498_ (
+    .A(_057_),
+    .B(_059_),
+    .Y(_060_)
+  );
+  NAND2X1 _499_ (
+    .A(A[11]),
+    .B(B[11]),
+    .Y(_061_)
+  );
+  INVX1 _500_ (
+    .A(_061_),
+    .Y(_062_)
+  );
+  OR2X1 _501_ (
+    .A(A[11]),
+    .B(B[11]),
+    .Y(_063_)
+  );
+  NAND2X1 _502_ (
+    .A(A[10]),
+    .B(B[10]),
+    .Y(_064_)
+  );
+  INVX1 _503_ (
+    .A(_064_),
+    .Y(_065_)
+  );
+  NOR2X1 _504_ (
+    .A(A[10]),
+    .B(B[10]),
+    .Y(_066_)
+  );
+  NOR2X1 _505_ (
+    .A(_065_),
+    .B(_066_),
+    .Y(_067_)
+  );
+  INVX1 _506_ (
+    .A(_067_),
+    .Y(_068_)
+  );
+  AND2X1 _507_ (
+    .A(A[9]),
+    .B(B[9]),
+    .Y(_069_)
+  );
+  NAND2X1 _508_ (
+    .A(A[9]),
+    .B(B[9]),
+    .Y(_070_)
+  );
+  OR2X1 _509_ (
+    .A(A[9]),
+    .B(B[9]),
+    .Y(_071_)
+  );
+  NAND2X1 _510_ (
+    .A(A[8]),
+    .B(B[8]),
+    .Y(_072_)
+  );
+  NOR2X1 _511_ (
+    .A(A[8]),
+    .B(B[8]),
+    .Y(_073_)
+  );
+  XNOR2X1 _512_ (
+    .A(A[8]),
+    .B(B[8]),
+    .Y(_074_)
+  );
+  AND2X1 _513_ (
+    .A(A[7]),
+    .B(B[7]),
+    .Y(_075_)
+  );
+  NAND2X1 _514_ (
+    .A(A[7]),
+    .B(B[7]),
+    .Y(_076_)
+  );
+  NOR2X1 _515_ (
+    .A(A[7]),
+    .B(B[7]),
+    .Y(_077_)
+  );
+  OR2X1 _516_ (
+    .A(A[7]),
+    .B(B[7]),
+    .Y(_078_)
+  );
+  AND2X1 _517_ (
+    .A(A[6]),
+    .B(B[6]),
+    .Y(_079_)
+  );
+  NAND2X1 _518_ (
+    .A(A[6]),
+    .B(B[6]),
+    .Y(_080_)
+  );
+  NOR2X1 _519_ (
+    .A(A[6]),
+    .B(B[6]),
+    .Y(_081_)
+  );
+  NOR2X1 _520_ (
+    .A(_079_),
+    .B(_081_),
+    .Y(_082_)
+  );
+  OR2X1 _521_ (
+    .A(_079_),
+    .B(_081_),
+    .Y(_083_)
+  );
+  AND2X1 _522_ (
+    .A(A[5]),
+    .B(B[5]),
+    .Y(_084_)
+  );
+  NOR2X1 _523_ (
+    .A(A[5]),
+    .B(B[5]),
+    .Y(_085_)
+  );
+  OR2X1 _524_ (
+    .A(A[5]),
+    .B(B[5]),
+    .Y(_086_)
+  );
+  OAI21X1 _525_ (
+    .A(_365_),
+    .B(_013_),
+    .C(_022_),
+    .Y(_087_)
+  );
+  OAI21X1 _526_ (
+    .A(_084_),
+    .B(_087_),
+    .C(_086_),
+    .Y(_088_)
+  );
+  OAI21X1 _527_ (
+    .A(_083_),
+    .B(_088_),
+    .C(_080_),
+    .Y(_089_)
+  );
+  OAI21X1 _528_ (
+    .A(_075_),
+    .B(_089_),
+    .C(_078_),
+    .Y(_090_)
+  );
+  OAI21X1 _529_ (
+    .A(_074_),
+    .B(_090_),
+    .C(_072_),
+    .Y(_091_)
+  );
+  OAI21X1 _530_ (
+    .A(_069_),
+    .B(_091_),
+    .C(_071_),
+    .Y(_092_)
+  );
+  OAI21X1 _531_ (
+    .A(_068_),
+    .B(_092_),
+    .C(_064_),
+    .Y(_093_)
+  );
+  OAI21X1 _532_ (
+    .A(_062_),
+    .B(_093_),
+    .C(_063_),
+    .Y(_094_)
+  );
+  OAI21X1 _533_ (
+    .A(_060_),
+    .B(_094_),
+    .C(_057_),
+    .Y(_095_)
+  );
+  AOI21X1 _534_ (
+    .A(_055_),
+    .B(_095_),
+    .C(_053_),
+    .Y(_096_)
+  );
+  OAI21X1 _535_ (
+    .A(_052_),
+    .B(_096_),
+    .C(_051_),
+    .Y(_097_)
+  );
+  AOI21X1 _536_ (
+    .A(A[15]),
+    .B(B[15]),
+    .C(_097_),
+    .Y(_098_)
+  );
+  NOR2X1 _537_ (
+    .A(A[15]),
+    .B(B[15]),
+    .Y(_099_)
+  );
+  OAI21X1 _538_ (
+    .A(A[15]),
+    .B(B[15]),
+    .C(_016_),
+    .Y(_100_)
+  );
+  XNOR2X1 _539_ (
+    .A(A[15]),
+    .B(B[15]),
+    .Y(_101_)
+  );
+  AND2X1 _540_ (
+    .A(_052_),
+    .B(_101_),
+    .Y(_102_)
+  );
+  AND2X1 _541_ (
+    .A(_061_),
+    .B(_063_),
+    .Y(_103_)
+  );
+  NAND2X1 _542_ (
+    .A(_061_),
+    .B(_063_),
+    .Y(_104_)
+  );
+  NOR2X1 _543_ (
+    .A(_067_),
+    .B(_103_),
+    .Y(_105_)
+  );
+  AND2X1 _544_ (
+    .A(_102_),
+    .B(_105_),
+    .Y(_106_)
+  );
+  OAI21X1 _545_ (
+    .A(_053_),
+    .B(_054_),
+    .C(_060_),
+    .Y(_107_)
+  );
+  AND2X1 _546_ (
+    .A(_070_),
+    .B(_071_),
+    .Y(_108_)
+  );
+  NAND2X1 _547_ (
+    .A(_070_),
+    .B(_071_),
+    .Y(_109_)
+  );
+  NAND2X1 _548_ (
+    .A(_074_),
+    .B(_109_),
+    .Y(_110_)
+  );
+  NOR2X1 _549_ (
+    .A(_107_),
+    .B(_110_),
+    .Y(_111_)
+  );
+  AND2X1 _550_ (
+    .A(_106_),
+    .B(_111_),
+    .Y(_112_)
+  );
+  NAND2X1 _551_ (
+    .A(A[7]),
+    .B(_355_),
+    .Y(_113_)
+  );
+  NOR2X1 _552_ (
+    .A(_075_),
+    .B(_077_),
+    .Y(_114_)
+  );
+  INVX1 _553_ (
+    .A(_114_),
+    .Y(_115_)
+  );
+  NOR2X1 _554_ (
+    .A(_346_),
+    .B(B[5]),
+    .Y(_116_)
+  );
+  NOR2X1 _555_ (
+    .A(_084_),
+    .B(_085_),
+    .Y(_117_)
+  );
+  INVX1 _556_ (
+    .A(_117_),
+    .Y(_118_)
+  );
+  OAI21X1 _557_ (
+    .A(_366_),
+    .B(_002_),
+    .C(_364_),
+    .Y(_119_)
+  );
+  NOR2X1 _558_ (
+    .A(_364_),
+    .B(_117_),
+    .Y(_120_)
+  );
+  OR2X1 _559_ (
+    .A(_003_),
+    .B(_117_),
+    .Y(_121_)
+  );
+  OAI21X1 _560_ (
+    .A(_084_),
+    .B(_085_),
+    .C(_119_),
+    .Y(_122_)
+  );
+  OAI21X1 _561_ (
+    .A(_346_),
+    .B(B[5]),
+    .C(_122_),
+    .Y(_123_)
+  );
+  OAI21X1 _562_ (
+    .A(_079_),
+    .B(_081_),
+    .C(_123_),
+    .Y(_124_)
+  );
+  OAI21X1 _563_ (
+    .A(_116_),
+    .B(_120_),
+    .C(_083_),
+    .Y(_125_)
+  );
+  OAI21X1 _564_ (
+    .A(_352_),
+    .B(B[6]),
+    .C(_125_),
+    .Y(_126_)
+  );
+  NOR2X1 _565_ (
+    .A(_082_),
+    .B(_121_),
+    .Y(_127_)
+  );
+  OAI21X1 _566_ (
+    .A(_352_),
+    .B(B[6]),
+    .C(_124_),
+    .Y(_128_)
+  );
+  OAI21X1 _567_ (
+    .A(_126_),
+    .B(_127_),
+    .C(_115_),
+    .Y(_129_)
+  );
+  NAND2X1 _568_ (
+    .A(_113_),
+    .B(_129_),
+    .Y(_130_)
+  );
+  NOR2X1 _569_ (
+    .A(_351_),
+    .B(B[8]),
+    .Y(_131_)
+  );
+  NAND2X1 _570_ (
+    .A(_109_),
+    .B(_131_),
+    .Y(_132_)
+  );
+  OAI21X1 _571_ (
+    .A(_350_),
+    .B(B[9]),
+    .C(_132_),
+    .Y(_133_)
+  );
+  NAND2X1 _572_ (
+    .A(_105_),
+    .B(_133_),
+    .Y(_134_)
+  );
+  NAND2X1 _573_ (
+    .A(A[10]),
+    .B(_362_),
+    .Y(_135_)
+  );
+  NOR2X1 _574_ (
+    .A(_103_),
+    .B(_135_),
+    .Y(_136_)
+  );
+  AOI21X1 _575_ (
+    .A(A[11]),
+    .B(_358_),
+    .C(_136_),
+    .Y(_137_)
+  );
+  AOI21X1 _576_ (
+    .A(_134_),
+    .B(_137_),
+    .C(_107_),
+    .Y(_138_)
+  );
+  NAND2X1 _577_ (
+    .A(A[12]),
+    .B(_363_),
+    .Y(_139_)
+  );
+  INVX1 _578_ (
+    .A(_139_),
+    .Y(_140_)
+  );
+  NAND2X1 _579_ (
+    .A(A[13]),
+    .B(_345_),
+    .Y(_141_)
+  );
+  OAI21X1 _580_ (
+    .A(_055_),
+    .B(_139_),
+    .C(_141_),
+    .Y(_142_)
+  );
+  OAI21X1 _581_ (
+    .A(_138_),
+    .B(_142_),
+    .C(_102_),
+    .Y(_143_)
+  );
+  NOR2X1 _582_ (
+    .A(_348_),
+    .B(B[14]),
+    .Y(_144_)
+  );
+  NAND2X1 _583_ (
+    .A(_101_),
+    .B(_144_),
+    .Y(_145_)
+  );
+  OAI21X1 _584_ (
+    .A(_349_),
+    .B(B[15]),
+    .C(_143_),
+    .Y(_146_)
+  );
+  AOI21X1 _585_ (
+    .A(_112_),
+    .B(_130_),
+    .C(_146_),
+    .Y(_147_)
+  );
+  NAND2X1 _586_ (
+    .A(_145_),
+    .B(_147_),
+    .Y(_148_)
+  );
+  NAND2X1 _587_ (
+    .A(A[15]),
+    .B(_019_),
+    .Y(_149_)
+  );
+  NOR2X1 _588_ (
+    .A(_014_),
+    .B(_149_),
+    .Y(_150_)
+  );
+  OAI21X1 _589_ (
+    .A(ALU_Sel[0]),
+    .B(ALU_Sel[1]),
+    .C(_027_),
+    .Y(_151_)
+  );
+  OAI21X1 _590_ (
+    .A(_008_),
+    .B(_148_),
+    .C(_151_),
+    .Y(_152_)
+  );
+  NOR2X1 _591_ (
+    .A(_150_),
+    .B(_152_),
+    .Y(_153_)
+  );
+  OAI21X1 _592_ (
+    .A(_098_),
+    .B(_100_),
+    .C(_153_),
+    .Y(CarryOut)
+  );
+  NAND3X1 _593_ (
+    .A(_347_),
+    .B(B[0]),
+    .C(_383_),
+    .Y(_154_)
+  );
+  NOR2X1 _594_ (
+    .A(_388_),
+    .B(_008_),
+    .Y(_155_)
+  );
+  OAI21X1 _595_ (
+    .A(ALU_Sel[1]),
+    .B(_033_),
+    .C(_382_),
+    .Y(_156_)
+  );
+  OAI21X1 _596_ (
+    .A(_382_),
+    .B(_037_),
+    .C(_156_),
+    .Y(_157_)
+  );
+  AOI22X1 _597_ (
+    .A(A[2]),
+    .B(_021_),
+    .C(_028_),
+    .D(_381_),
+    .Y(_158_)
+  );
+  OAI21X1 _598_ (
+    .A(_383_),
+    .B(_041_),
+    .C(_158_),
+    .Y(_159_)
+  );
+  AOI22X1 _599_ (
+    .A(A[0]),
+    .B(_030_),
+    .C(_042_),
+    .D(_383_),
+    .Y(_160_)
+  );
+  OAI21X1 _600_ (
+    .A(_381_),
+    .B(_026_),
+    .C(_160_),
+    .Y(_161_)
+  );
+  NOR2X1 _601_ (
+    .A(_159_),
+    .B(_161_),
+    .Y(_162_)
+  );
+  XNOR2X1 _602_ (
+    .A(_383_),
+    .B(_384_),
+    .Y(_163_)
+  );
+  OAI21X1 _603_ (
+    .A(_017_),
+    .B(_163_),
+    .C(_157_),
+    .Y(_164_)
+  );
+  AOI21X1 _604_ (
+    .A(_154_),
+    .B(_155_),
+    .C(_164_),
+    .Y(_165_)
+  );
+  NAND2X1 _605_ (
+    .A(_162_),
+    .B(_165_),
+    .Y(ALU_Out[1])
+  );
+  XOR2X1 _606_ (
+    .A(_097_),
+    .B(_101_),
+    .Y(_166_)
+  );
+  NAND2X1 _607_ (
+    .A(_074_),
+    .B(_130_),
+    .Y(_167_)
+  );
+  AOI21X1 _608_ (
+    .A(_113_),
+    .B(_129_),
+    .C(_110_),
+    .Y(_168_)
+  );
+  NOR2X1 _609_ (
+    .A(_133_),
+    .B(_168_),
+    .Y(_169_)
+  );
+  OAI21X1 _610_ (
+    .A(_133_),
+    .B(_168_),
+    .C(_068_),
+    .Y(_170_)
+  );
+  OAI21X1 _611_ (
+    .A(_103_),
+    .B(_170_),
+    .C(_137_),
+    .Y(_171_)
+  );
+  AOI21X1 _612_ (
+    .A(_060_),
+    .B(_171_),
+    .C(_140_),
+    .Y(_172_)
+  );
+  OAI21X1 _613_ (
+    .A(_055_),
+    .B(_172_),
+    .C(_141_),
+    .Y(_173_)
+  );
+  NAND2X1 _614_ (
+    .A(_052_),
+    .B(_173_),
+    .Y(_174_)
+  );
+  AOI21X1 _615_ (
+    .A(_052_),
+    .B(_173_),
+    .C(_144_),
+    .Y(_175_)
+  );
+  XNOR2X1 _616_ (
+    .A(_101_),
+    .B(_175_),
+    .Y(_176_)
+  );
+  NOR2X1 _617_ (
+    .A(_025_),
+    .B(_040_),
+    .Y(_177_)
+  );
+  NAND3X1 _618_ (
+    .A(A[0]),
+    .B(ALU_Sel[1]),
+    .C(_021_),
+    .Y(_178_)
+  );
+  NAND2X1 _619_ (
+    .A(A[14]),
+    .B(_030_),
+    .Y(_179_)
+  );
+  AOI22X1 _620_ (
+    .A(_028_),
+    .B(_050_),
+    .C(_099_),
+    .D(_032_),
+    .Y(_180_)
+  );
+  OAI22X1 _621_ (
+    .A(_038_),
+    .B(_099_),
+    .C(_101_),
+    .D(_043_),
+    .Y(_181_)
+  );
+  OAI21X1 _622_ (
+    .A(_050_),
+    .B(_177_),
+    .C(_179_),
+    .Y(_182_)
+  );
+  NOR2X1 _623_ (
+    .A(_181_),
+    .B(_182_),
+    .Y(_183_)
+  );
+  NAND3X1 _624_ (
+    .A(_178_),
+    .B(_180_),
+    .C(_183_),
+    .Y(_184_)
+  );
+  AOI21X1 _625_ (
+    .A(_007_),
+    .B(_176_),
+    .C(_184_),
+    .Y(_185_)
+  );
+  OAI21X1 _626_ (
+    .A(_017_),
+    .B(_166_),
+    .C(_185_),
+    .Y(ALU_Out[15])
+  );
+  AND2X1 _627_ (
+    .A(_060_),
+    .B(_094_),
+    .Y(_186_)
+  );
+  OAI21X1 _628_ (
+    .A(_060_),
+    .B(_094_),
+    .C(_016_),
+    .Y(_187_)
+  );
+  XOR2X1 _629_ (
+    .A(_060_),
+    .B(_171_),
+    .Y(_188_)
+  );
+  MUX2X1 _630_ (
+    .A(_028_),
+    .B(_025_),
+    .S(_057_),
+    .Y(_189_)
+  );
+  AOI22X1 _631_ (
+    .A(A[13]),
+    .B(_021_),
+    .C(_040_),
+    .D(_060_),
+    .Y(_190_)
+  );
+  MUX2X1 _632_ (
+    .A(_034_),
+    .B(_037_),
+    .S(_058_),
+    .Y(_191_)
+  );
+  OAI21X1 _633_ (
+    .A(_043_),
+    .B(_060_),
+    .C(_189_),
+    .Y(_192_)
+  );
+  AOI21X1 _634_ (
+    .A(A[11]),
+    .B(_030_),
+    .C(_192_),
+    .Y(_193_)
+  );
+  NAND3X1 _635_ (
+    .A(_190_),
+    .B(_191_),
+    .C(_193_),
+    .Y(_194_)
+  );
+  AOI21X1 _636_ (
+    .A(_007_),
+    .B(_188_),
+    .C(_194_),
+    .Y(_195_)
+  );
+  OAI21X1 _637_ (
+    .A(_186_),
+    .B(_187_),
+    .C(_195_),
+    .Y(ALU_Out[12])
+  );
+  OAI21X1 _638_ (
+    .A(_012_),
+    .B(_017_),
+    .C(_043_),
+    .Y(_196_)
+  );
+  AOI21X1 _639_ (
+    .A(_000_),
+    .B(_007_),
+    .C(_196_),
+    .Y(_197_)
+  );
+  NOR2X1 _640_ (
+    .A(_370_),
+    .B(_197_),
+    .Y(_198_)
+  );
+  NOR2X1 _641_ (
+    .A(_028_),
+    .B(_198_),
+    .Y(_199_)
+  );
+  AOI21X1 _642_ (
+    .A(_012_),
+    .B(_016_),
+    .C(_040_),
+    .Y(_200_)
+  );
+  OAI21X1 _643_ (
+    .A(_000_),
+    .B(_008_),
+    .C(_200_),
+    .Y(_201_)
+  );
+  AOI22X1 _644_ (
+    .A(_369_),
+    .B(_025_),
+    .C(_034_),
+    .D(_370_),
+    .Y(_202_)
+  );
+  NAND2X1 _645_ (
+    .A(A[4]),
+    .B(_021_),
+    .Y(_203_)
+  );
+  AOI22X1 _646_ (
+    .A(A[2]),
+    .B(_030_),
+    .C(_037_),
+    .D(_371_),
+    .Y(_204_)
+  );
+  NAND3X1 _647_ (
+    .A(_202_),
+    .B(_203_),
+    .C(_204_),
+    .Y(_205_)
+  );
+  AOI21X1 _648_ (
+    .A(_373_),
+    .B(_201_),
+    .C(_205_),
+    .Y(_206_)
+  );
+  OAI21X1 _649_ (
+    .A(_369_),
+    .B(_199_),
+    .C(_206_),
+    .Y(ALU_Out[3])
+  );
+  XNOR2X1 _650_ (
+    .A(_093_),
+    .B(_103_),
+    .Y(_207_)
+  );
+  OAI21X1 _651_ (
+    .A(_067_),
+    .B(_169_),
+    .C(_135_),
+    .Y(_208_)
+  );
+  AOI21X1 _652_ (
+    .A(_104_),
+    .B(_208_),
+    .C(_008_),
+    .Y(_209_)
+  );
+  OAI21X1 _653_ (
+    .A(_104_),
+    .B(_208_),
+    .C(_209_),
+    .Y(_210_)
+  );
+  OAI21X1 _654_ (
+    .A(A[11]),
+    .B(B[11]),
+    .C(_037_),
+    .Y(_211_)
+  );
+  NAND2X1 _655_ (
+    .A(A[12]),
+    .B(_021_),
+    .Y(_212_)
+  );
+  OAI21X1 _656_ (
+    .A(_041_),
+    .B(_103_),
+    .C(_212_),
+    .Y(_213_)
+  );
+  AOI22X1 _657_ (
+    .A(A[10]),
+    .B(_030_),
+    .C(_061_),
+    .D(_028_),
+    .Y(_214_)
+  );
+  OAI21X1 _658_ (
+    .A(_035_),
+    .B(_063_),
+    .C(_214_),
+    .Y(_215_)
+  );
+  OAI21X1 _659_ (
+    .A(_043_),
+    .B(_104_),
+    .C(_211_),
+    .Y(_216_)
+  );
+  NOR2X1 _660_ (
+    .A(_215_),
+    .B(_216_),
+    .Y(_217_)
+  );
+  OAI21X1 _661_ (
+    .A(_026_),
+    .B(_061_),
+    .C(_217_),
+    .Y(_218_)
+  );
+  NOR2X1 _662_ (
+    .A(_213_),
+    .B(_218_),
+    .Y(_219_)
+  );
+  AND2X1 _663_ (
+    .A(_210_),
+    .B(_219_),
+    .Y(_220_)
+  );
+  OAI21X1 _664_ (
+    .A(_017_),
+    .B(_207_),
+    .C(_220_),
+    .Y(ALU_Out[11])
+  );
+  AND2X1 _665_ (
+    .A(_052_),
+    .B(_096_),
+    .Y(_221_)
+  );
+  OAI21X1 _666_ (
+    .A(_052_),
+    .B(_096_),
+    .C(_016_),
+    .Y(_222_)
+  );
+  NOR2X1 _667_ (
+    .A(_052_),
+    .B(_173_),
+    .Y(_223_)
+  );
+  NOR2X1 _668_ (
+    .A(_008_),
+    .B(_223_),
+    .Y(_224_)
+  );
+  OAI21X1 _669_ (
+    .A(B[14]),
+    .B(_035_),
+    .C(_041_),
+    .Y(_225_)
+  );
+  NAND2X1 _670_ (
+    .A(A[13]),
+    .B(_030_),
+    .Y(_226_)
+  );
+  OAI21X1 _671_ (
+    .A(A[14]),
+    .B(B[14]),
+    .C(_037_),
+    .Y(_227_)
+  );
+  NAND2X1 _672_ (
+    .A(_226_),
+    .B(_227_),
+    .Y(_228_)
+  );
+  AOI21X1 _673_ (
+    .A(A[15]),
+    .B(_021_),
+    .C(_228_),
+    .Y(_229_)
+  );
+  NAND2X1 _674_ (
+    .A(_029_),
+    .B(_051_),
+    .Y(_230_)
+  );
+  OAI21X1 _675_ (
+    .A(_025_),
+    .B(_051_),
+    .C(_230_),
+    .Y(_231_)
+  );
+  OAI21X1 _676_ (
+    .A(_043_),
+    .B(_052_),
+    .C(_231_),
+    .Y(_232_)
+  );
+  AOI21X1 _677_ (
+    .A(_052_),
+    .B(_225_),
+    .C(_232_),
+    .Y(_233_)
+  );
+  NAND2X1 _678_ (
+    .A(_229_),
+    .B(_233_),
+    .Y(_234_)
+  );
+  AOI21X1 _679_ (
+    .A(_174_),
+    .B(_224_),
+    .C(_234_),
+    .Y(_235_)
+  );
+  OAI21X1 _680_ (
+    .A(_221_),
+    .B(_222_),
+    .C(_235_),
+    .Y(ALU_Out[14])
+  );
+  OAI21X1 _681_ (
+    .A(_011_),
+    .B(_017_),
+    .C(_041_),
+    .Y(_236_)
+  );
+  AOI21X1 _682_ (
+    .A(_389_),
+    .B(_007_),
+    .C(_236_),
+    .Y(_237_)
+  );
+  OAI21X1 _683_ (
+    .A(ALU_Sel[2]),
+    .B(_011_),
+    .C(_015_),
+    .Y(_238_)
+  );
+  OAI21X1 _684_ (
+    .A(_389_),
+    .B(_008_),
+    .C(_238_),
+    .Y(_239_)
+  );
+  AOI22X1 _685_ (
+    .A(_375_),
+    .B(_025_),
+    .C(_030_),
+    .D(A[1]),
+    .Y(_240_)
+  );
+  AOI22X1 _686_ (
+    .A(A[3]),
+    .B(_021_),
+    .C(_034_),
+    .D(_377_),
+    .Y(_241_)
+  );
+  NAND2X1 _687_ (
+    .A(_240_),
+    .B(_241_),
+    .Y(_242_)
+  );
+  AOI21X1 _688_ (
+    .A(_376_),
+    .B(_028_),
+    .C(_242_),
+    .Y(_243_)
+  );
+  OAI21X1 _689_ (
+    .A(_377_),
+    .B(_038_),
+    .C(_243_),
+    .Y(_244_)
+  );
+  AOI21X1 _690_ (
+    .A(_378_),
+    .B(_239_),
+    .C(_244_),
+    .Y(_245_)
+  );
+  OAI21X1 _691_ (
+    .A(_378_),
+    .B(_237_),
+    .C(_245_),
+    .Y(ALU_Out[2])
+  );
+  AND2X1 _692_ (
+    .A(_068_),
+    .B(_092_),
+    .Y(_246_)
+  );
+  OAI21X1 _693_ (
+    .A(_068_),
+    .B(_092_),
+    .C(_016_),
+    .Y(_247_)
+  );
+  XNOR2X1 _694_ (
+    .A(_068_),
+    .B(_169_),
+    .Y(_248_)
+  );
+  AOI21X1 _695_ (
+    .A(_042_),
+    .B(_064_),
+    .C(_037_),
+    .Y(_249_)
+  );
+  NAND2X1 _696_ (
+    .A(A[9]),
+    .B(_030_),
+    .Y(_250_)
+  );
+  AOI22X1 _697_ (
+    .A(A[11]),
+    .B(_021_),
+    .C(_034_),
+    .D(_066_),
+    .Y(_251_)
+  );
+  NAND2X1 _698_ (
+    .A(_250_),
+    .B(_251_),
+    .Y(_252_)
+  );
+  MUX2X1 _699_ (
+    .A(_025_),
+    .B(_028_),
+    .S(_065_),
+    .Y(_253_)
+  );
+  OAI21X1 _700_ (
+    .A(_041_),
+    .B(_067_),
+    .C(_253_),
+    .Y(_254_)
+  );
+  NOR2X1 _701_ (
+    .A(_252_),
+    .B(_254_),
+    .Y(_255_)
+  );
+  OAI21X1 _702_ (
+    .A(_066_),
+    .B(_249_),
+    .C(_255_),
+    .Y(_256_)
+  );
+  AOI21X1 _703_ (
+    .A(_007_),
+    .B(_248_),
+    .C(_256_),
+    .Y(_257_)
+  );
+  OAI21X1 _704_ (
+    .A(_246_),
+    .B(_247_),
+    .C(_257_),
+    .Y(ALU_Out[10])
+  );
+  XNOR2X1 _705_ (
+    .A(_055_),
+    .B(_095_),
+    .Y(_258_)
+  );
+  XNOR2X1 _706_ (
+    .A(_056_),
+    .B(_172_),
+    .Y(_259_)
+  );
+  MUX2X1 _707_ (
+    .A(_025_),
+    .B(_028_),
+    .S(_053_),
+    .Y(_260_)
+  );
+  AOI22X1 _708_ (
+    .A(A[14]),
+    .B(_021_),
+    .C(_040_),
+    .D(_056_),
+    .Y(_261_)
+  );
+  MUX2X1 _709_ (
+    .A(_034_),
+    .B(_037_),
+    .S(_054_),
+    .Y(_262_)
+  );
+  OAI21X1 _710_ (
+    .A(_043_),
+    .B(_056_),
+    .C(_260_),
+    .Y(_263_)
+  );
+  AOI21X1 _711_ (
+    .A(A[12]),
+    .B(_030_),
+    .C(_263_),
+    .Y(_264_)
+  );
+  NAND3X1 _712_ (
+    .A(_261_),
+    .B(_262_),
+    .C(_264_),
+    .Y(_265_)
+  );
+  AOI21X1 _713_ (
+    .A(_007_),
+    .B(_259_),
+    .C(_265_),
+    .Y(_266_)
+  );
+  OAI21X1 _714_ (
+    .A(_017_),
+    .B(_258_),
+    .C(_266_),
+    .Y(ALU_Out[13])
+  );
+  AOI21X1 _715_ (
+    .A(_091_),
+    .B(_108_),
+    .C(_017_),
+    .Y(_267_)
+  );
+  OAI21X1 _716_ (
+    .A(_091_),
+    .B(_108_),
+    .C(_267_),
+    .Y(_268_)
+  );
+  NAND2X1 _717_ (
+    .A(_108_),
+    .B(_167_),
+    .Y(_269_)
+  );
+  NAND2X1 _718_ (
+    .A(_007_),
+    .B(_132_),
+    .Y(_270_)
+  );
+  NOR2X1 _719_ (
+    .A(_168_),
+    .B(_270_),
+    .Y(_271_)
+  );
+  OAI21X1 _720_ (
+    .A(_131_),
+    .B(_269_),
+    .C(_271_),
+    .Y(_272_)
+  );
+  OAI21X1 _721_ (
+    .A(_043_),
+    .B(_069_),
+    .C(_038_),
+    .Y(_273_)
+  );
+  OAI21X1 _722_ (
+    .A(_025_),
+    .B(_040_),
+    .C(_069_),
+    .Y(_274_)
+  );
+  AOI22X1 _723_ (
+    .A(A[10]),
+    .B(_021_),
+    .C(_028_),
+    .D(_070_),
+    .Y(_275_)
+  );
+  NOR2X1 _724_ (
+    .A(_033_),
+    .B(_071_),
+    .Y(_276_)
+  );
+  AOI21X1 _725_ (
+    .A(A[8]),
+    .B(_030_),
+    .C(_276_),
+    .Y(_277_)
+  );
+  NAND3X1 _726_ (
+    .A(_274_),
+    .B(_275_),
+    .C(_277_),
+    .Y(_278_)
+  );
+  AOI21X1 _727_ (
+    .A(_071_),
+    .B(_273_),
+    .C(_278_),
+    .Y(_279_)
+  );
+  NAND3X1 _728_ (
+    .A(_268_),
+    .B(_272_),
+    .C(_279_),
+    .Y(ALU_Out[9])
+  );
+  NOR2X1 _729_ (
+    .A(_372_),
+    .B(_383_),
+    .Y(_280_)
+  );
+  NAND3X1 _730_ (
+    .A(_387_),
+    .B(_118_),
+    .C(_280_),
+    .Y(_281_)
+  );
+  NOR2X1 _731_ (
+    .A(_082_),
+    .B(_114_),
+    .Y(_282_)
+  );
+  NOR2X1 _732_ (
+    .A(_366_),
+    .B(_378_),
+    .Y(_283_)
+  );
+  NAND3X1 _733_ (
+    .A(_112_),
+    .B(_282_),
+    .C(_283_),
+    .Y(_284_)
+  );
+  NOR2X1 _734_ (
+    .A(_281_),
+    .B(_284_),
+    .Y(_285_)
+  );
+  NOR2X1 _735_ (
+    .A(_014_),
+    .B(_285_),
+    .Y(_286_)
+  );
+  NAND2X1 _736_ (
+    .A(_148_),
+    .B(_286_),
+    .Y(_287_)
+  );
+  NAND2X1 _737_ (
+    .A(ALU_Sel[0]),
+    .B(_285_),
+    .Y(_288_)
+  );
+  OAI21X1 _738_ (
+    .A(ALU_Sel[1]),
+    .B(_288_),
+    .C(_287_),
+    .Y(_289_)
+  );
+  NAND3X1 _739_ (
+    .A(ALU_Sel[2]),
+    .B(ALU_Sel[3]),
+    .C(_289_),
+    .Y(_290_)
+  );
+  OAI21X1 _740_ (
+    .A(_007_),
+    .B(_015_),
+    .C(_385_),
+    .Y(_291_)
+  );
+  OAI21X1 _741_ (
+    .A(_357_),
+    .B(_006_),
+    .C(_291_),
+    .Y(_292_)
+  );
+  OAI21X1 _742_ (
+    .A(A[0]),
+    .B(B[0]),
+    .C(_292_),
+    .Y(_293_)
+  );
+  OAI21X1 _743_ (
+    .A(_360_),
+    .B(_026_),
+    .C(_041_),
+    .Y(_294_)
+  );
+  AOI22X1 _744_ (
+    .A(A[15]),
+    .B(_019_),
+    .C(_027_),
+    .D(_385_),
+    .Y(_295_)
+  );
+  AOI22X1 _745_ (
+    .A(A[1]),
+    .B(_021_),
+    .C(_034_),
+    .D(_386_),
+    .Y(_296_)
+  );
+  OAI21X1 _746_ (
+    .A(_024_),
+    .B(_295_),
+    .C(_296_),
+    .Y(_297_)
+  );
+  AOI21X1 _747_ (
+    .A(_387_),
+    .B(_294_),
+    .C(_297_),
+    .Y(_298_)
+  );
+  NAND3X1 _748_ (
+    .A(_290_),
+    .B(_293_),
+    .C(_298_),
+    .Y(ALU_Out[0])
+  );
+  NOR2X1 _749_ (
+    .A(_074_),
+    .B(_130_),
+    .Y(_299_)
+  );
+  NAND2X1 _750_ (
+    .A(_007_),
+    .B(_167_),
+    .Y(_300_)
+  );
+  XOR2X1 _751_ (
+    .A(_074_),
+    .B(_090_),
+    .Y(_301_)
+  );
+  MUX2X1 _752_ (
+    .A(_028_),
+    .B(_025_),
+    .S(_072_),
+    .Y(_302_)
+  );
+  AOI22X1 _753_ (
+    .A(A[9]),
+    .B(_021_),
+    .C(_040_),
+    .D(_074_),
+    .Y(_303_)
+  );
+  MUX2X1 _754_ (
+    .A(_034_),
+    .B(_037_),
+    .S(_073_),
+    .Y(_304_)
+  );
+  OAI21X1 _755_ (
+    .A(_043_),
+    .B(_074_),
+    .C(_302_),
+    .Y(_305_)
+  );
+  AOI21X1 _756_ (
+    .A(A[7]),
+    .B(_030_),
+    .C(_305_),
+    .Y(_306_)
+  );
+  NAND3X1 _757_ (
+    .A(_303_),
+    .B(_304_),
+    .C(_306_),
+    .Y(_307_)
+  );
+  AOI21X1 _758_ (
+    .A(_016_),
+    .B(_301_),
+    .C(_307_),
+    .Y(_308_)
+  );
+  OAI21X1 _759_ (
+    .A(_299_),
+    .B(_300_),
+    .C(_308_),
+    .Y(ALU_Out[8])
+  );
+  NOR2X1 _760_ (
+    .A(_115_),
+    .B(_128_),
+    .Y(_309_)
+  );
+  NAND2X1 _761_ (
+    .A(_007_),
+    .B(_129_),
+    .Y(_310_)
+  );
+  XNOR2X1 _762_ (
+    .A(_089_),
+    .B(_114_),
+    .Y(_311_)
+  );
+  OAI21X1 _763_ (
+    .A(_043_),
+    .B(_077_),
+    .C(_029_),
+    .Y(_312_)
+  );
+  AOI21X1 _764_ (
+    .A(_026_),
+    .B(_041_),
+    .C(_076_),
+    .Y(_313_)
+  );
+  AOI22X1 _765_ (
+    .A(A[8]),
+    .B(_021_),
+    .C(_030_),
+    .D(A[6]),
+    .Y(_314_)
+  );
+  OAI21X1 _766_ (
+    .A(_038_),
+    .B(_077_),
+    .C(_314_),
+    .Y(_315_)
+  );
+  NOR2X1 _767_ (
+    .A(_313_),
+    .B(_315_),
+    .Y(_316_)
+  );
+  OAI21X1 _768_ (
+    .A(_033_),
+    .B(_078_),
+    .C(_316_),
+    .Y(_317_)
+  );
+  AOI21X1 _769_ (
+    .A(_076_),
+    .B(_312_),
+    .C(_317_),
+    .Y(_318_)
+  );
+  OAI21X1 _770_ (
+    .A(_017_),
+    .B(_311_),
+    .C(_318_),
+    .Y(_319_)
+  );
+  INVX1 _771_ (
+    .A(_319_),
+    .Y(_320_)
+  );
+  OAI21X1 _772_ (
+    .A(_309_),
+    .B(_310_),
+    .C(_320_),
+    .Y(ALU_Out[7])
+  );
+  NOR2X1 _773_ (
+    .A(_083_),
+    .B(_123_),
+    .Y(_321_)
+  );
+  NAND2X1 _774_ (
+    .A(_007_),
+    .B(_124_),
+    .Y(_322_)
+  );
+  XNOR2X1 _775_ (
+    .A(_082_),
+    .B(_088_),
+    .Y(_323_)
+  );
+  OAI21X1 _776_ (
+    .A(_043_),
+    .B(_081_),
+    .C(_029_),
+    .Y(_324_)
+  );
+  INVX1 _777_ (
+    .A(_324_),
+    .Y(_325_)
+  );
+  AOI22X1 _778_ (
+    .A(_025_),
+    .B(_079_),
+    .C(_081_),
+    .D(_034_),
+    .Y(_326_)
+  );
+  OAI21X1 _779_ (
+    .A(_038_),
+    .B(_081_),
+    .C(_326_),
+    .Y(_327_)
+  );
+  AOI22X1 _780_ (
+    .A(A[7]),
+    .B(_021_),
+    .C(_030_),
+    .D(A[5]),
+    .Y(_328_)
+  );
+  OAI21X1 _781_ (
+    .A(_041_),
+    .B(_082_),
+    .C(_328_),
+    .Y(_329_)
+  );
+  NOR2X1 _782_ (
+    .A(_327_),
+    .B(_329_),
+    .Y(_330_)
+  );
+  OAI21X1 _783_ (
+    .A(_079_),
+    .B(_325_),
+    .C(_330_),
+    .Y(_331_)
+  );
+  AOI21X1 _784_ (
+    .A(_016_),
+    .B(_323_),
+    .C(_331_),
+    .Y(_332_)
+  );
+  OAI21X1 _785_ (
+    .A(_321_),
+    .B(_322_),
+    .C(_332_),
+    .Y(ALU_Out[6])
+  );
+  NOR2X1 _786_ (
+    .A(_118_),
+    .B(_119_),
+    .Y(_333_)
+  );
+  NAND2X1 _787_ (
+    .A(_007_),
+    .B(_122_),
+    .Y(_334_)
+  );
+  XNOR2X1 _788_ (
+    .A(_087_),
+    .B(_118_),
+    .Y(_335_)
+  );
+  OAI21X1 _789_ (
+    .A(_043_),
+    .B(_084_),
+    .C(_038_),
+    .Y(_336_)
+  );
+  OAI21X1 _790_ (
+    .A(A[5]),
+    .B(B[5]),
+    .C(_336_),
+    .Y(_337_)
+  );
+  AOI22X1 _791_ (
+    .A(A[4]),
+    .B(_030_),
+    .C(_084_),
+    .D(_025_),
+    .Y(_338_)
+  );
+  OAI21X1 _792_ (
+    .A(_029_),
+    .B(_084_),
+    .C(_338_),
+    .Y(_339_)
+  );
+  AOI22X1 _793_ (
+    .A(A[6]),
+    .B(_021_),
+    .C(_034_),
+    .D(_085_),
+    .Y(_340_)
+  );
+  OAI21X1 _794_ (
+    .A(_041_),
+    .B(_117_),
+    .C(_340_),
+    .Y(_341_)
+  );
+  NOR2X1 _795_ (
+    .A(_339_),
+    .B(_341_),
+    .Y(_342_)
+  );
+  NAND2X1 _796_ (
+    .A(_337_),
+    .B(_342_),
+    .Y(_343_)
+  );
+  AOI21X1 _797_ (
+    .A(_016_),
+    .B(_335_),
+    .C(_343_),
+    .Y(_344_)
+  );
+  OAI21X1 _798_ (
+    .A(_333_),
+    .B(_334_),
+    .C(_344_),
+    .Y(ALU_Out[5])
+  );
   assign tmp = { CarryOut, ALU_Out };
 endmodule
