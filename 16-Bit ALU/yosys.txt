@@ -18,3 +18,5 @@ write_verilog alu16bit_synth.v
 
 gvim alu16bit_synth.v 
 
+show -format dot -prefix my_design_      ##to save yosys design in pdf n dot format 
+
