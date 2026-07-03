@@ -1,4 +1,4 @@
-digraph "alu16bit" {
+digraph "alu16bit" { 
 label="alu16bit";
 rankdir="LR";
 remincross=true;
