@@ -1,22 +1,22 @@
-yosys
+>yosys
 
-read_verilog alu16bit.v 
+>read_verilog alu16bit.v 
 
-hierarchy -check -top alu16bit  
+>hierarchy -check -top alu16bit  
 
-proc; opt; fsm; opt; memory; opt  
+>proc; opt; fsm; opt; memory; opt  
 
-techmap; opt  
+>techmap; opt  
 
-dfflibmap -liberty osu018_stdcells.lib  
+>dfflibmap -liberty osu018_stdcells.lib  
 
-abc -liberty osu018_stdcells.lib  
+>abc -liberty osu018_stdcells.lib  
 
-clean
+>clean
 
-write_verilog alu16bit_synth.v 
+>write_verilog alu16bit_synth.v 
 
-gvim alu16bit_synth.v 
+>gvim alu16bit_synth.v 
 
 show -format dot -prefix my_design_      ##to save yosys design in pdf n dot format 
    
