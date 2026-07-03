@@ -35,7 +35,7 @@ module alu16bit (
 
         endcase
 
-        // Assign outputs
+        //outputs
         ALU_Out  = tmp[15:0];
         CarryOut = tmp[16];
     end
