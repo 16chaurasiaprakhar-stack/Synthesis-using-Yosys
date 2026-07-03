@@ -8,15 +8,15 @@
 
 > techmap; opt 
 
-dfflibmap -liberty osu018_stdcells.lib 
+> dfflibmap -liberty osu018_stdcells.lib 
 
-abc -liberty osu018_stdcells.lib  
+> abc -liberty osu018_stdcells.lib  
 
-clean
+> clean
 
-write_verilog counter4bit_synth.v 
+> write_verilog counter4bit_synth.v 
 
-show
+> show
 
->(exit) 
+> (exit) 
 gvim counter4bit_synth.v
