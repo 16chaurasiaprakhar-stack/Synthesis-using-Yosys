@@ -1,12 +1,12 @@
-yosys
+> yosys
 
-read_verilog counter.v
+> read_verilog counter.v
 
-hierarchy -check -top counter_4bit  
+> hierarchy -check -top counter_4bit  
 
-proc; opt; fsm; opt; memory; opt  
+> proc; opt; fsm; opt; memory; opt  
 
-techmap; opt 
+> techmap; opt 
 
 dfflibmap -liberty osu018_stdcells.lib 
 
