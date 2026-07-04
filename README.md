@@ -135,8 +135,6 @@ RTL-Synthesis-using-Yosys/
 
 ---
 
----
-
 ## Applications
 
 - RTL Design
@@ -146,3 +144,11 @@ RTL-Synthesis-using-Yosys/
 - VLSI Education and Research
 
 ---
+
+
+#### References
+
+- Yosys Open Synthesis Suite
+- Graphviz
+- Liberty Timing Format (`.lib`)
+- Verilog HDL
