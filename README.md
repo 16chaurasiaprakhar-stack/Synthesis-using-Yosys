@@ -30,3 +30,14 @@ show -format dot -prefix my_design_
 ```
 
 > **Note:** `show -format dot -prefix my_design_` generates the design graph in `.dot` format, which can be converted to a PDF using Graphviz.
+
+
+
+
+
+
+
+• proc – Converts behavioral constructs like always blocks into processes. 
+• fsm – Extracts and optimizes finite state machines. 
+• memory – Translates memory elements if present. 
+• opt – Optimizes design after each transformation.
