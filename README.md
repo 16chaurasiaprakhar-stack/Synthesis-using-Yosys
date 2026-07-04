@@ -134,3 +134,15 @@ RTL-Synthesis-using-Yosys/
 | `<design>.pdf` | PDF schematic generated using Graphviz |
 
 ---
+
+---
+
+## Applications
+
+- RTL Design
+- Digital Logic Synthesis
+- ASIC Design Flow
+- Standard Cell-Based Design
+- VLSI Education and Research
+
+---
