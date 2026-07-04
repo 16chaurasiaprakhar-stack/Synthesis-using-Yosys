@@ -1,6 +1,29 @@
 # Synthesis-using-Yosys
 This repository demonstrates RTL design and synthesis using the open-source Yosys toolchain. All designs are written in Verilog, verified with testbenches, and synthesized to gate-level netlists using standard cell libraries (osu018).
 
+
+## Features
+
+- RTL synthesis using Yosys
+- Hierarchy checking
+- RTL optimization
+- Finite State Machine (FSM) optimization
+- Memory inference
+- Technology mapping
+- Standard cell library mapping
+- Gate-level netlist generation
+- Design visualization using Graphviz
+
+---
+
+## Prerequisites
+
+- Yosys
+- Graphviz
+- Verilog HDL source files
+- Liberty (`.lib`) standard cell library
+
+---
                
 > 
 ## Yosys Synthesis Flow
@@ -33,10 +56,6 @@ show -format dot -prefix my_design_
 
 
 
-
-
-
-
 ### Command Description
 
 - **proc** – Converts behavioral constructs (such as `always` blocks) into internal processes.
@@ -51,3 +70,57 @@ show -format dot -prefix my_design_
 - **dfflibmap** – Maps flip-flops to the standard cell library specified by the Liberty (`.lib`) file.
 - **abc** – Performs logic optimization and maps combinational logic to the target standard cell library using the specified Liberty (`.lib`) file.
 - **clean** – Removes unused cells, wires, and redundant logic from the synthesized design.
+
+  ---
+
+## Design Flow
+
+```text
+Verilog RTL
+      │
+      ▼
+Read Verilog
+      │
+      ▼
+Hierarchy Check
+      │
+      ▼
+Process Conversion
+      │
+      ▼
+RTL Optimization
+      │
+      ▼
+Technology Mapping
+      │
+      ▼
+Standard Cell Mapping
+      │
+      ▼
+Logic Optimization
+      │
+      ▼
+Gate-Level Netlist
+      │
+      ▼
+DOT / PDF Generation
+```
+
+---
+
+## Repository Structure
+
+```text
+RTL-Synthesis-using-Yosys/
+├── designs/
+│   ├── design1.v
+│   ├── design2.v
+│   └── ...
+├── libraries/
+│   └── <library>.lib
+├── synthesized_netlists/
+├── images/
+└── README.md
+```
+
+---
