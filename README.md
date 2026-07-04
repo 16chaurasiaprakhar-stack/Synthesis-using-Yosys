@@ -37,7 +37,9 @@ show -format dot -prefix my_design_
 
 
 
-• proc – Converts behavioral constructs like always blocks into processes. 
-• fsm – Extracts and optimizes finite state machines. 
-• memory – Translates memory elements if present. 
-• opt – Optimizes design after each transformation.
+### Command Description
+
+- **proc** – Converts behavioral constructs (such as `always` blocks) into internal processes.
+- **fsm** – Extracts and optimizes finite state machines (FSMs).
+- **memory** – Processes and maps memory elements, if present.
+- **opt** – Optimizes the design after each transformation to reduce unnecessary logic.
