@@ -8,7 +8,7 @@ This repository demonstrates RTL design and synthesis using the open-source Yosy
 ```bash
 yosys
 
-read_verilog alu16bit.v
+read_verilog x.v
 
 hierarchy -check -top alu16bit
 
@@ -22,9 +22,9 @@ abc -liberty osu018_stdcells.lib
 
 clean
 
-write_verilog alu16bit_synth.v
+write_verilog x_synth.v
 
-gvim alu16bit_synth.v
+gvim x_synth.v
 
 show -format dot -prefix my_design_
 ```
