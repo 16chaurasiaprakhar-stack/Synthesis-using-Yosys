@@ -37,7 +37,7 @@ hierarchy -check -top alu16bit
 
 proc; opt; fsm; opt; memory; opt   
 
-techmap,opt     
+techmap; opt
 
 dfflibmap -liberty osu018_stdcells.lib
 
