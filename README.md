@@ -49,7 +49,7 @@ write_verilog x_synth.v
 
 gvim x_synth.v
 
-show -format dot -prefix my_design_
+show -format dot -prefix my_design_ 
 ```
 
 > **Note:** `show -format dot -prefix my_design_` generates the design graph in `.dot` format, which can be converted to a PDF using Graphviz.
