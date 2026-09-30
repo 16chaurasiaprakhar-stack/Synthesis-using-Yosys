@@ -35,7 +35,7 @@ read_verilog x.v
 
 hierarchy -check -top alu16bit
 
-proc ;opt; fsm,opt,memory,opt
+proc; opt; fsm; opt; memory; opt   
 
 techmap,opt     
 
